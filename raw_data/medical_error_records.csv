@@ -1,0 +1,278 @@
+patient_id,hospital_facility_type,state,country,reporting_staff_role,patient_age,patient_gender,error_type,error_subtype,department,severity_level,outcome,detection_method,contributing_factor,report_source,corrective_action
+1,Tertiary Hospital,Kano,Nigeria,Nurse,43,Male,Medication Error,Omitted Dose,Pharmacy,Minor,Temporary Harm,Patient Complaint,System Error,Internal Hospital Log,Root Cause Analysis
+2,General Hospital,Lagos,Nigeria,Nurse,59,Female,Documentation Error,Wrong Patient Chart,Orthopedics,Minor,No Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Staff Training
+3,Teaching Hospital,FCT,Nigeria,Pharmacist,26,Female,Documentation Error,Illegible Order,Pharmacy,Moderate,Death,Electronic System Alert,Staff Shortage,Ministry Audit,Equipment Maintenance
+4,Teaching Hospital,Imo,Nigeria,Nurse,37,Female,Surgical Mistake,Post-op Bleed,Pharmacy,Moderate,Temporary Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Equipment Maintenance
+5,Teaching Hospital,Edo,Nigeria,Doctor,0,Male,Diagnostic Error,Result Misinterpretation,Orthopedics,Minor,Death,Self-report,Fatigue,Internal Hospital Log,Staff Training
+6,Tertiary Hospital,Kano,Nigeria,Midwife,52,Male,Documentation Error,Incomplete Record,Internal Medicine,Minor,No Harm,Audit,Training Gap,Patient Report,Equipment Maintenance
+7,Tertiary Hospital,Kaduna,Nigeria,Lab Scientist,14,Male,Surgical Mistake,Wrong Site,Internal Medicine,Severe,Temporary Harm,Self-report,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+8,Tertiary Hospital,Edo,Nigeria,Doctor,41,Male,Documentation Error,Wrong Patient Chart,Emergency,Minor,Temporary Harm,Self-report,System Error,Ministry Audit,Staff Training
+9,Teaching Hospital,Kaduna,Nigeria,Lab Scientist,55,Female,Medication Error,Wrong Drug,Emergency,Moderate,No Harm,Self-report,System Error,Patient Report,Digital Record Adoption
+10,Specialist Hospital,Ogun,Nigeria,Nurse,41,Male,Documentation Error,Illegible Order,Pharmacy,Minor,No Harm,Self-report,Equipment Failure,Ministry Audit,Digital Record Adoption
+11,Teaching Hospital,Imo,Nigeria,Doctor,26,Female,Medication Error,Wrong Route,Surgery,Minor,No Harm,Self-report,Fatigue,Ministry Audit,Digital Record Adoption
+12,Tertiary Hospital,Edo,Nigeria,Midwife,36,Male,Medication Error,Wrong Drug,Pediatrics,Moderate,Temporary Harm,Self-report,Staff Shortage,Patient Report,SOP Update
+13,General Hospital,Plateau,Nigeria,Doctor,45,Female,Medication Error,Omitted Dose,Pediatrics,Minor,Temporary Harm,Audit,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+14,Teaching Hospital,Edo,Nigeria,Pharmacist,35,Female,Medication Error,Drug Interaction,Pediatrics,Severe,No Harm,Self-report,Staff Shortage,Patient Report,Root Cause Analysis
+15,Tertiary Hospital,Rivers,Nigeria,Nurse,34,Male,Medication Error,Omitted Dose,Maternity,Moderate,No Harm,Patient Complaint,System Error,Patient Report,Digital Record Adoption
+16,Specialist Hospital,Kaduna,Nigeria,Doctor,30,Male,Medication Error,Wrong Drug,Pediatrics,Minor,Temporary Harm,Electronic System Alert,System Error,Patient Report,SOP Update
+17,General Hospital,Kano,Nigeria,Lab Scientist,19,Male,Surgical Mistake,Wrong Site,ICU,Minor,Temporary Harm,Audit,Miscommunication,Internal Hospital Log,SOP Update
+18,Teaching Hospital,Rivers,Nigeria,Lab Scientist,29,Male,Medication Error,Omitted Dose,Surgery,Minor,No Harm,Patient Complaint,Miscommunication,Ministry Audit,Root Cause Analysis
+19,Specialist Hospital,Ogun,Nigeria,Pharmacist,52,Female,Medication Error,Drug Interaction,Internal Medicine,Moderate,Temporary Harm,Self-report,Miscommunication,Patient Report,Equipment Maintenance
+20,Specialist Hospital,Edo,Nigeria,Doctor,66,Female,Infection Control Error,Aseptic Technique Break,Emergency,Minor,Temporary Harm,Patient Complaint,Miscommunication,Ministry Audit,Digital Record Adoption
+21,Specialist Hospital,FCT,Nigeria,Lab Scientist,0,Male,Medication Error,Wrong Dose,Pharmacy,Sentinel,Temporary Harm,Electronic System Alert,Fatigue,Ministry Audit,Process Redesign
+22,Specialist Hospital,Edo,Nigeria,Lab Scientist,49,Female,Surgical Mistake,Post-op Bleed,Pharmacy,Severe,No Harm,Self-report,Fatigue,Patient Report,Root Cause Analysis
+23,Teaching Hospital,FCT,Nigeria,Doctor,25,Female,Medication Error,Wrong Dose,Emergency,Minor,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,SOP Update
+24,Teaching Hospital,Enugu,Nigeria,Lab Scientist,8,Male,Surgical Mistake,Wrong Site,Internal Medicine,Minor,No Harm,Electronic System Alert,Fatigue,Patient Report,Process Redesign
+25,Specialist Hospital,Edo,Nigeria,Doctor,44,Female,Medication Error,Wrong Route,Surgery,Minor,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Equipment Maintenance
+26,Teaching Hospital,FCT,Nigeria,Nurse,55,Female,Documentation Error,Illegible Order,Surgery,Severe,No Harm,Self-report,Equipment Failure,Internal Hospital Log,SOP Update
+27,Tertiary Hospital,Enugu,Nigeria,Midwife,30,Female,Medication Error,Omitted Dose,Orthopedics,Minor,Temporary Harm,Self-report,Training Gap,Patient Report,SOP Update
+28,Specialist Hospital,Ogun,Nigeria,Lab Scientist,43,Female,Device/Equipment Error,Alarm Disabled,Maternity,Minor,Temporary Harm,Electronic System Alert,Miscommunication,Patient Report,Root Cause Analysis
+29,Teaching Hospital,Lagos,Nigeria,Midwife,70,Male,Surgical Mistake,Wrong Procedure,Maternity,Moderate,No Harm,Self-report,Miscommunication,Patient Report,Process Redesign
+30,Specialist Hospital,Rivers,Nigeria,Pharmacist,32,Female,Medication Error,Drug Interaction,Pharmacy,Minor,Temporary Harm,Audit,System Error,Ministry Audit,Digital Record Adoption
+31,Teaching Hospital,Imo,Nigeria,Nurse,34,Female,Medication Error,Expired Product,Outpatient,Moderate,Death,Electronic System Alert,Miscommunication,Internal Hospital Log,Equipment Maintenance
+32,Tertiary Hospital,Rivers,Nigeria,Nurse,34,Female,Surgical Mistake,Anesthesia Complication,Internal Medicine,Minor,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Staff Training
+33,Teaching Hospital,Edo,Nigeria,Doctor,33,Male,Surgical Mistake,Anesthesia Complication,Emergency,Severe,Death,Self-report,System Error,Internal Hospital Log,Root Cause Analysis
+34,Teaching Hospital,FCT,Nigeria,Nurse,30,Female,Medication Error,Omitted Dose,ICU,Minor,No Harm,Self-report,Training Gap,Patient Report,Process Redesign
+35,General Hospital,Kano,Nigeria,Midwife,11,Female,Surgical Mistake,Wrong Procedure,Orthopedics,Severe,No Harm,Audit,Staff Shortage,Patient Report,Staff Training
+36,Specialist Hospital,Lagos,Nigeria,Nurse,22,Female,Documentation Error,Wrong Patient Chart,ICU,Moderate,No Harm,Self-report,System Error,Ministry Audit,Process Redesign
+37,Tertiary Hospital,Edo,Nigeria,Lab Scientist,35,Female,Medication Error,Wrong Dose,Internal Medicine,Minor,No Harm,Electronic System Alert,System Error,Internal Hospital Log,Process Redesign
+38,Teaching Hospital,Imo,Nigeria,Nurse,13,Female,Medication Error,Drug Interaction,Pharmacy,Moderate,No Harm,Self-report,Fatigue,Internal Hospital Log,SOP Update
+39,Specialist Hospital,FCT,Nigeria,Midwife,44,Female,Transfusion Error,Mislabeled Sample,Pediatrics,Minor,Temporary Harm,Audit,System Error,Ministry Audit,Staff Training
+40,Tertiary Hospital,Ogun,Nigeria,Lab Scientist,18,Male,Medication Error,Wrong Route,Surgery,Minor,No Harm,Electronic System Alert,Fatigue,Ministry Audit,Process Redesign
+41,Specialist Hospital,Plateau,Nigeria,Midwife,49,Female,Device/Equipment Error,Equipment Failure,ICU,Moderate,No Harm,Patient Complaint,Fatigue,Patient Report,Staff Training
+42,Specialist Hospital,Kano,Nigeria,Pharmacist,12,Female,Surgical Mistake,Wrong Site,Pediatrics,Minor,Temporary Harm,Electronic System Alert,Staff Shortage,Ministry Audit,Staff Training
+43,Specialist Hospital,Enugu,Nigeria,Nurse,39,Male,Medication Error,Wrong Route,Emergency,Moderate,Temporary Harm,Electronic System Alert,Fatigue,Ministry Audit,Process Redesign
+44,Specialist Hospital,FCT,Nigeria,Midwife,49,Male,Surgical Mistake,Wrong Procedure,Emergency,Sentinel,No Harm,Electronic System Alert,Training Gap,Ministry Audit,Equipment Maintenance
+45,Teaching Hospital,Kano,Nigeria,Doctor,22,Female,Transfusion Error,Wrong Blood Type,Emergency,Moderate,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Equipment Maintenance
+46,General Hospital,Rivers,Nigeria,Midwife,39,Female,Documentation Error,Incomplete Record,Pediatrics,Moderate,No Harm,Electronic System Alert,Equipment Failure,Patient Report,Process Redesign
+47,Teaching Hospital,Plateau,Nigeria,Nurse,38,Female,Medication Error,Wrong Dose,Outpatient,Minor,Temporary Harm,Patient Complaint,Training Gap,Ministry Audit,Process Redesign
+48,Tertiary Hospital,Oyo,Nigeria,Pharmacist,13,Male,Transfusion Error,Wrong Blood Type,ICU,Moderate,Permanent Harm,Self-report,Training Gap,Ministry Audit,SOP Update
+49,Teaching Hospital,Plateau,Nigeria,Midwife,59,Male,Medication Error,Drug Interaction,Surgery,Minor,No Harm,Electronic System Alert,System Error,Internal Hospital Log,Staff Training
+50,Specialist Hospital,Oyo,Nigeria,Doctor,21,Male,Medication Error,Wrong Dose,Maternity,Minor,Temporary Harm,Self-report,Miscommunication,Internal Hospital Log,SOP Update
+51,Tertiary Hospital,Plateau,Nigeria,Nurse,34,Female,Diagnostic Error,Result Misinterpretation,Surgery,Minor,No Harm,Audit,Training Gap,Internal Hospital Log,Digital Record Adoption
+52,General Hospital,Edo,Nigeria,Lab Scientist,42,Male,Diagnostic Error,Delayed Diagnosis,Pediatrics,Severe,Temporary Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Digital Record Adoption
+53,Specialist Hospital,Kano,Nigeria,Nurse,61,Female,Infection Control Error,Hand Hygiene Failure,Orthopedics,Minor,Temporary Harm,Electronic System Alert,System Error,Internal Hospital Log,Root Cause Analysis
+54,Tertiary Hospital,Edo,Nigeria,Lab Scientist,42,Male,Medication Error,Drug Interaction,ICU,Minor,No Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Equipment Maintenance
+55,General Hospital,Oyo,Nigeria,Lab Scientist,32,Female,Diagnostic Error,Result Misinterpretation,Pediatrics,Minor,Temporary Harm,Self-report,Training Gap,Patient Report,SOP Update
+56,Specialist Hospital,Kano,Nigeria,Pharmacist,48,Male,Medication Error,Drug Interaction,Orthopedics,Moderate,No Harm,Self-report,System Error,Internal Hospital Log,Equipment Maintenance
+57,Specialist Hospital,Rivers,Nigeria,Nurse,18,Female,Medication Error,Wrong Dose,Surgery,Moderate,No Harm,Self-report,System Error,Patient Report,SOP Update
+58,Specialist Hospital,Kano,Nigeria,Doctor,25,Male,Surgical Mistake,Wrong Procedure,Maternity,Severe,Temporary Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Digital Record Adoption
+59,Teaching Hospital,Edo,Nigeria,Doctor,19,Male,Medication Error,Omitted Dose,Internal Medicine,Moderate,Temporary Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,SOP Update
+60,Specialist Hospital,Plateau,Nigeria,Pharmacist,16,Male,Medication Error,Wrong Route,Pediatrics,Moderate,Temporary Harm,Electronic System Alert,System Error,Internal Hospital Log,Equipment Maintenance
+61,Tertiary Hospital,Enugu,Nigeria,Lab Scientist,7,Male,Diagnostic Error,Delayed Diagnosis,ICU,Severe,Temporary Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+62,Specialist Hospital,Kaduna,Nigeria,Midwife,25,Male,Transfusion Error,Over-transfusion,Orthopedics,Moderate,Temporary Harm,Self-report,Training Gap,Patient Report,Equipment Maintenance
+63,Tertiary Hospital,Plateau,Nigeria,Midwife,52,Male,Documentation Error,Misfiled Result,Maternity,Moderate,Permanent Harm,Self-report,Fatigue,Patient Report,Equipment Maintenance
+64,Specialist Hospital,Oyo,Nigeria,Midwife,46,Male,Medication Error,Omitted Dose,Pediatrics,Moderate,No Harm,Patient Complaint,System Error,Internal Hospital Log,Process Redesign
+65,General Hospital,Enugu,Nigeria,Lab Scientist,41,Female,Medication Error,Drug Interaction,ICU,Minor,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Equipment Maintenance
+66,Teaching Hospital,Kaduna,Nigeria,Nurse,1,Female,Diagnostic Error,Delayed Diagnosis,Outpatient,Severe,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Root Cause Analysis
+67,Tertiary Hospital,Kaduna,Nigeria,Lab Scientist,64,Female,Device/Equipment Error,Power Loss,Maternity,Minor,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Process Redesign
+68,General Hospital,Kano,Nigeria,Doctor,21,Male,Medication Error,Wrong Route,ICU,Minor,Temporary Harm,Audit,System Error,Internal Hospital Log,Process Redesign
+69,General Hospital,Imo,Nigeria,Midwife,21,Male,Medication Error,Wrong Route,Internal Medicine,Minor,No Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Process Redesign
+70,Specialist Hospital,Oyo,Nigeria,Midwife,24,Female,Medication Error,Wrong Route,Surgery,Minor,No Harm,Self-report,Staff Shortage,Ministry Audit,Equipment Maintenance
+71,Specialist Hospital,Ogun,Nigeria,Nurse,52,Female,Documentation Error,Misfiled Result,Internal Medicine,Sentinel,No Harm,Audit,System Error,Ministry Audit,Staff Training
+72,Teaching Hospital,Imo,Nigeria,Pharmacist,57,Female,Surgical Mistake,Wrong Site,Internal Medicine,Moderate,No Harm,Patient Complaint,Staff Shortage,Internal Hospital Log,Process Redesign
+73,Tertiary Hospital,Lagos,Nigeria,Doctor,42,Female,Diagnostic Error,Result Misinterpretation,Internal Medicine,Minor,Temporary Harm,Audit,System Error,Ministry Audit,Digital Record Adoption
+74,General Hospital,Imo,Nigeria,Nurse,48,Female,Medication Error,Wrong Drug,Pediatrics,Moderate,Permanent Harm,Audit,Staff Shortage,Patient Report,Equipment Maintenance
+75,Specialist Hospital,Oyo,Nigeria,Pharmacist,64,Male,Medication Error,Wrong Route,Surgery,Minor,Temporary Harm,Audit,System Error,Internal Hospital Log,Root Cause Analysis
+76,Teaching Hospital,Plateau,Nigeria,Midwife,9,Male,Diagnostic Error,Missed Diagnosis,Outpatient,Moderate,No Harm,Electronic System Alert,Fatigue,Patient Report,Staff Training
+77,General Hospital,Plateau,Nigeria,Doctor,45,Male,Device/Equipment Error,Power Loss,Maternity,Moderate,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Root Cause Analysis
+78,Teaching Hospital,Plateau,Nigeria,Nurse,37,Male,Medication Error,Drug Interaction,Outpatient,Minor,Permanent Harm,Audit,Training Gap,Ministry Audit,Equipment Maintenance
+79,Specialist Hospital,Oyo,Nigeria,Lab Scientist,32,Female,Documentation Error,Illegible Order,Internal Medicine,Minor,No Harm,Audit,Equipment Failure,Internal Hospital Log,Staff Training
+80,Specialist Hospital,Rivers,Nigeria,Midwife,45,Female,Surgical Mistake,Wrong Site,Orthopedics,Moderate,Permanent Harm,Self-report,Miscommunication,Internal Hospital Log,Staff Training
+81,Tertiary Hospital,Enugu,Nigeria,Doctor,31,Male,Diagnostic Error,Wrong Test Ordered,Outpatient,Minor,No Harm,Audit,System Error,Ministry Audit,Root Cause Analysis
+82,General Hospital,Lagos,Nigeria,Lab Scientist,26,Male,Medication Error,Omitted Dose,ICU,Moderate,No Harm,Electronic System Alert,Equipment Failure,Ministry Audit,Root Cause Analysis
+83,Specialist Hospital,Enugu,Nigeria,Doctor,41,Female,Medication Error,Drug Interaction,Surgery,Moderate,No Harm,Patient Complaint,System Error,Patient Report,SOP Update
+84,Specialist Hospital,FCT,Nigeria,Lab Scientist,45,Female,Surgical Mistake,Post-op Bleed,ICU,Severe,Temporary Harm,Self-report,Equipment Failure,Patient Report,SOP Update
+85,Specialist Hospital,Imo,Nigeria,Pharmacist,57,Female,Medication Error,Wrong Drug,Emergency,Moderate,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Process Redesign
+86,Teaching Hospital,Kaduna,Nigeria,Doctor,24,Female,Device/Equipment Error,Calibration Error,Emergency,Minor,Permanent Harm,Self-report,Fatigue,Patient Report,Equipment Maintenance
+87,Teaching Hospital,FCT,Nigeria,Lab Scientist,46,Female,Medication Error,Wrong Route,Internal Medicine,Moderate,No Harm,Electronic System Alert,Staff Shortage,Patient Report,SOP Update
+88,Tertiary Hospital,Oyo,Nigeria,Midwife,0,Female,Surgical Mistake,Retained Item,Surgery,Sentinel,No Harm,Audit,Training Gap,Ministry Audit,Staff Training
+89,Specialist Hospital,Kano,Nigeria,Doctor,27,Male,Medication Error,Drug Interaction,ICU,Moderate,Temporary Harm,Self-report,Miscommunication,Ministry Audit,Root Cause Analysis
+90,Specialist Hospital,FCT,Nigeria,Nurse,52,Male,Surgical Mistake,Wrong Procedure,Internal Medicine,Minor,Temporary Harm,Self-report,Training Gap,Ministry Audit,Process Redesign
+91,Tertiary Hospital,Enugu,Nigeria,Doctor,55,Male,Medication Error,Wrong Drug,ICU,Minor,Temporary Harm,Patient Complaint,Fatigue,Patient Report,Root Cause Analysis
+92,Specialist Hospital,Kaduna,Nigeria,Doctor,49,Female,Infection Control Error,Catheter-Related Infection,Pediatrics,Moderate,Temporary Harm,Audit,System Error,Ministry Audit,Staff Training
+93,Specialist Hospital,Kano,Nigeria,Doctor,52,Male,Medication Error,Omitted Dose,Pediatrics,Moderate,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Equipment Maintenance
+94,Specialist Hospital,Kaduna,Nigeria,Midwife,32,Female,Medication Error,Expired Product,Orthopedics,Moderate,Temporary Harm,Self-report,Staff Shortage,Internal Hospital Log,Equipment Maintenance
+95,Teaching Hospital,Lagos,Nigeria,Lab Scientist,9,Female,Medication Error,Wrong Dose,Pediatrics,Moderate,No Harm,Patient Complaint,Staff Shortage,Internal Hospital Log,Process Redesign
+96,Teaching Hospital,Enugu,Nigeria,Nurse,28,Female,Infection Control Error,Aseptic Technique Break,Pharmacy,Minor,No Harm,Patient Complaint,Equipment Failure,Ministry Audit,Equipment Maintenance
+97,Teaching Hospital,Oyo,Nigeria,Lab Scientist,8,Female,Medication Error,Wrong Drug,Outpatient,Moderate,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Digital Record Adoption
+98,General Hospital,Rivers,Nigeria,Doctor,9,Female,Surgical Mistake,Post-op Bleed,Surgery,Severe,No Harm,Electronic System Alert,Training Gap,Patient Report,Root Cause Analysis
+99,General Hospital,Enugu,Nigeria,Pharmacist,50,Female,Documentation Error,Misfiled Result,Pharmacy,Moderate,Temporary Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+100,Teaching Hospital,Lagos,Nigeria,Pharmacist,32,Male,Diagnostic Error,Missed Diagnosis,Maternity,Minor,Temporary Harm,Audit,Training Gap,Ministry Audit,Equipment Maintenance
+101,Tertiary Hospital,Oyo,Nigeria,Nurse,50,Male,Documentation Error,Incomplete Record,Maternity,Minor,No Harm,Self-report,System Error,Patient Report,Staff Training
+102,Tertiary Hospital,Imo,Nigeria,Doctor,55,Female,Medication Error,Expired Product,Outpatient,Minor,No Harm,Patient Complaint,System Error,Ministry Audit,Staff Training
+103,Specialist Hospital,Enugu,Nigeria,Lab Scientist,31,Female,Medication Error,Drug Interaction,Pharmacy,Minor,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Staff Training
+104,General Hospital,Edo,Nigeria,Doctor,40,Male,Transfusion Error,Mislabeled Sample,Pharmacy,Severe,Temporary Harm,Audit,Miscommunication,Internal Hospital Log,Staff Training
+105,Tertiary Hospital,Ogun,Nigeria,Nurse,18,Female,Documentation Error,Incomplete Record,Orthopedics,Moderate,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Root Cause Analysis
+106,Tertiary Hospital,Imo,Nigeria,Doctor,62,Female,Surgical Mistake,Wrong Procedure,Outpatient,Severe,No Harm,Patient Complaint,Training Gap,Ministry Audit,Staff Training
+107,General Hospital,Kaduna,Nigeria,Nurse,19,Male,Documentation Error,Illegible Order,Maternity,Minor,No Harm,Audit,System Error,Ministry Audit,Staff Training
+108,Specialist Hospital,Edo,Nigeria,Pharmacist,24,Female,Medication Error,Wrong Route,Maternity,Minor,No Harm,Audit,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+109,Teaching Hospital,Kaduna,Nigeria,Pharmacist,41,Female,Infection Control Error,Catheter-Related Infection,Internal Medicine,Minor,No Harm,Electronic System Alert,Training Gap,Patient Report,SOP Update
+110,Teaching Hospital,Ogun,Nigeria,Lab Scientist,68,Male,Medication Error,Wrong Route,Internal Medicine,Minor,Temporary Harm,Audit,System Error,Internal Hospital Log,Process Redesign
+111,Tertiary Hospital,Rivers,Nigeria,Midwife,11,Female,Documentation Error,Misfiled Result,Orthopedics,Minor,Death,Audit,Fatigue,Patient Report,Root Cause Analysis
+112,Teaching Hospital,Enugu,Nigeria,Midwife,67,Male,Medication Error,Drug Interaction,Orthopedics,Sentinel,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Staff Training
+113,Specialist Hospital,Kano,Nigeria,Lab Scientist,59,Male,Medication Error,Drug Interaction,Maternity,Minor,No Harm,Electronic System Alert,System Error,Ministry Audit,Equipment Maintenance
+114,Tertiary Hospital,Oyo,Nigeria,Lab Scientist,22,Female,Diagnostic Error,Wrong Test Ordered,Outpatient,Minor,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,SOP Update
+115,Specialist Hospital,Kano,Nigeria,Midwife,38,Female,Infection Control Error,Improper Sterilization,Internal Medicine,Minor,No Harm,Self-report,Fatigue,Patient Report,Process Redesign
+116,Teaching Hospital,Oyo,Nigeria,Lab Scientist,26,Female,Medication Error,Wrong Drug,Emergency,Minor,No Harm,Self-report,Fatigue,Ministry Audit,Root Cause Analysis
+117,Specialist Hospital,Imo,Nigeria,Lab Scientist,10,Female,Diagnostic Error,Wrong Test Ordered,Surgery,Moderate,No Harm,Self-report,System Error,Patient Report,Process Redesign
+118,Teaching Hospital,Imo,Nigeria,Lab Scientist,44,Male,Diagnostic Error,Result Misinterpretation,Outpatient,Moderate,Temporary Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+119,Teaching Hospital,Kano,Nigeria,Doctor,56,Female,Infection Control Error,Improper Sterilization,Pharmacy,Severe,Temporary Harm,Self-report,Training Gap,Patient Report,Process Redesign
+120,Teaching Hospital,Enugu,Nigeria,Doctor,36,Male,Medication Error,Expired Product,Pediatrics,Minor,Temporary Harm,Audit,Staff Shortage,Ministry Audit,Process Redesign
+121,Specialist Hospital,Kano,Nigeria,Nurse,61,Male,Diagnostic Error,Delayed Diagnosis,Orthopedics,Moderate,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Digital Record Adoption
+122,Tertiary Hospital,Rivers,Nigeria,Nurse,50,Female,Medication Error,Expired Product,Maternity,Moderate,No Harm,Self-report,Training Gap,Internal Hospital Log,Staff Training
+123,Tertiary Hospital,Rivers,Nigeria,Lab Scientist,39,Male,Medication Error,Omitted Dose,Emergency,Minor,Temporary Harm,Patient Complaint,Staff Shortage,Ministry Audit,Process Redesign
+124,Teaching Hospital,Kano,Nigeria,Pharmacist,26,Female,Device/Equipment Error,Alarm Disabled,Maternity,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Equipment Maintenance
+125,Specialist Hospital,Kaduna,Nigeria,Pharmacist,56,Female,Documentation Error,Wrong Patient Chart,Orthopedics,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Staff Training
+126,Specialist Hospital,Plateau,Nigeria,Doctor,32,Male,Transfusion Error,Mislabeled Sample,Outpatient,Moderate,No Harm,Self-report,Training Gap,Internal Hospital Log,SOP Update
+127,Specialist Hospital,Edo,Nigeria,Midwife,32,Female,Documentation Error,Misfiled Result,Pediatrics,Minor,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+128,Specialist Hospital,Oyo,Nigeria,Nurse,33,Female,Diagnostic Error,Result Misinterpretation,Pediatrics,Minor,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,SOP Update
+129,Tertiary Hospital,Kaduna,Nigeria,Pharmacist,52,Female,Diagnostic Error,Wrong Test Ordered,Maternity,Minor,Temporary Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Staff Training
+130,Specialist Hospital,Rivers,Nigeria,Pharmacist,30,Female,Infection Control Error,Hand Hygiene Failure,Pharmacy,Moderate,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Staff Training
+131,General Hospital,Kaduna,Nigeria,Lab Scientist,9,Male,Medication Error,Wrong Dose,Internal Medicine,Minor,Temporary Harm,Self-report,Equipment Failure,Patient Report,Staff Training
+132,General Hospital,Enugu,Nigeria,Nurse,31,Female,Device/Equipment Error,Calibration Error,Outpatient,Moderate,No Harm,Self-report,Fatigue,Internal Hospital Log,SOP Update
+133,Tertiary Hospital,Rivers,Nigeria,Lab Scientist,32,Male,Medication Error,Wrong Drug,Outpatient,Minor,Permanent Harm,Audit,Training Gap,Internal Hospital Log,Root Cause Analysis
+134,Tertiary Hospital,Imo,Nigeria,Lab Scientist,31,Female,Medication Error,Wrong Dose,Pharmacy,Minor,Temporary Harm,Self-report,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+135,Tertiary Hospital,Enugu,Nigeria,Doctor,38,Female,Medication Error,Omitted Dose,Maternity,Minor,No Harm,Self-report,System Error,Internal Hospital Log,Process Redesign
+136,Specialist Hospital,FCT,Nigeria,Doctor,63,Male,Medication Error,Wrong Route,Internal Medicine,Moderate,Permanent Harm,Self-report,System Error,Ministry Audit,Staff Training
+137,Specialist Hospital,Ogun,Nigeria,Pharmacist,90,Male,Surgical Mistake,Anesthesia Complication,Orthopedics,Minor,No Harm,Self-report,Miscommunication,Ministry Audit,SOP Update
+138,Teaching Hospital,Edo,Nigeria,Pharmacist,55,Female,Infection Control Error,Catheter-Related Infection,Internal Medicine,Moderate,Temporary Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+139,Teaching Hospital,Kano,Nigeria,Doctor,23,Male,Medication Error,Wrong Drug,Emergency,Moderate,Temporary Harm,Patient Complaint,Equipment Failure,Patient Report,Digital Record Adoption
+140,Specialist Hospital,FCT,Nigeria,Midwife,15,Male,Infection Control Error,Catheter-Related Infection,Outpatient,Minor,No Harm,Self-report,Equipment Failure,Patient Report,SOP Update
+141,General Hospital,Oyo,Nigeria,Pharmacist,36,Male,Diagnostic Error,Missed Diagnosis,Pediatrics,Severe,Permanent Harm,Electronic System Alert,Miscommunication,Patient Report,Process Redesign
+142,Tertiary Hospital,Plateau,Nigeria,Midwife,19,Female,Diagnostic Error,Missed Diagnosis,Orthopedics,Minor,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+143,Teaching Hospital,Kaduna,Nigeria,Doctor,39,Female,Device/Equipment Error,Calibration Error,Pediatrics,Severe,Temporary Harm,Patient Complaint,Miscommunication,Ministry Audit,Staff Training
+144,General Hospital,Ogun,Nigeria,Nurse,50,Male,Surgical Mistake,Anesthesia Complication,Pediatrics,Severe,Temporary Harm,Audit,Training Gap,Internal Hospital Log,SOP Update
+145,Teaching Hospital,Enugu,Nigeria,Pharmacist,26,Male,Device/Equipment Error,Alarm Disabled,Surgery,Minor,Temporary Harm,Patient Complaint,Fatigue,Internal Hospital Log,Staff Training
+146,Tertiary Hospital,Edo,Nigeria,Doctor,23,Female,Infection Control Error,Improper Sterilization,Surgery,Minor,No Harm,Self-report,Training Gap,Patient Report,Root Cause Analysis
+147,Tertiary Hospital,Plateau,Nigeria,Pharmacist,38,Male,Diagnostic Error,Missed Diagnosis,Internal Medicine,Severe,No Harm,Audit,Miscommunication,Ministry Audit,Digital Record Adoption
+148,Tertiary Hospital,Ogun,Nigeria,Lab Scientist,51,Male,Infection Control Error,Catheter-Related Infection,Outpatient,Moderate,Permanent Harm,Audit,Equipment Failure,Ministry Audit,Equipment Maintenance
+149,Tertiary Hospital,FCT,Nigeria,Nurse,40,Female,Medication Error,Wrong Route,Pediatrics,Sentinel,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Root Cause Analysis
+150,Specialist Hospital,Ogun,Nigeria,Lab Scientist,67,Female,Medication Error,Expired Product,Pediatrics,Severe,Temporary Harm,Self-report,Miscommunication,Patient Report,Equipment Maintenance
+151,Teaching Hospital,FCT,Nigeria,Doctor,5,Male,Medication Error,Wrong Route,Emergency,Severe,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Equipment Maintenance
+152,Teaching Hospital,Ogun,Nigeria,Doctor,35,Male,Documentation Error,Incomplete Record,Surgery,Moderate,No Harm,Self-report,System Error,Ministry Audit,SOP Update
+153,Teaching Hospital,Kano,Nigeria,Pharmacist,32,Female,Documentation Error,Wrong Patient Chart,Internal Medicine,Moderate,No Harm,Electronic System Alert,Fatigue,Patient Report,Root Cause Analysis
+154,Tertiary Hospital,FCT,Nigeria,Doctor,27,Male,Documentation Error,Incomplete Record,Orthopedics,Moderate,Permanent Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Digital Record Adoption
+155,Tertiary Hospital,Rivers,Nigeria,Pharmacist,33,Female,Medication Error,Omitted Dose,Outpatient,Severe,No Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+156,General Hospital,Oyo,Nigeria,Lab Scientist,16,Male,Diagnostic Error,Missed Diagnosis,Surgery,Severe,Temporary Harm,Patient Complaint,Training Gap,Ministry Audit,Process Redesign
+157,General Hospital,Edo,Nigeria,Doctor,38,Female,Diagnostic Error,Result Misinterpretation,Internal Medicine,Moderate,Temporary Harm,Electronic System Alert,System Error,Internal Hospital Log,Equipment Maintenance
+158,Teaching Hospital,Kaduna,Nigeria,Lab Scientist,36,Male,Surgical Mistake,Post-op Bleed,Emergency,Moderate,No Harm,Self-report,Training Gap,Patient Report,Root Cause Analysis
+159,Specialist Hospital,Enugu,Nigeria,Nurse,44,Male,Transfusion Error,Over-transfusion,Maternity,Minor,Temporary Harm,Electronic System Alert,Fatigue,Ministry Audit,Process Redesign
+160,Teaching Hospital,Ogun,Nigeria,Nurse,47,Male,Surgical Mistake,Anesthesia Complication,Orthopedics,Minor,No Harm,Patient Complaint,Staff Shortage,Ministry Audit,Root Cause Analysis
+161,Tertiary Hospital,Imo,Nigeria,Lab Scientist,30,Male,Documentation Error,Incomplete Record,Orthopedics,Severe,Death,Self-report,Fatigue,Ministry Audit,SOP Update
+162,Specialist Hospital,Plateau,Nigeria,Lab Scientist,52,Female,Medication Error,Expired Product,Surgery,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Process Redesign
+163,Teaching Hospital,Enugu,Nigeria,Pharmacist,40,Male,Documentation Error,Misfiled Result,Pediatrics,Moderate,Temporary Harm,Self-report,Staff Shortage,Ministry Audit,SOP Update
+164,General Hospital,Plateau,Nigeria,Lab Scientist,31,Male,Medication Error,Wrong Dose,ICU,Minor,No Harm,Audit,Training Gap,Patient Report,Staff Training
+165,Tertiary Hospital,Lagos,Nigeria,Doctor,37,Female,Medication Error,Wrong Drug,Maternity,Minor,Permanent Harm,Electronic System Alert,Miscommunication,Patient Report,Staff Training
+166,Specialist Hospital,Oyo,Nigeria,Midwife,45,Male,Documentation Error,Illegible Order,Maternity,Minor,Permanent Harm,Audit,System Error,Patient Report,Digital Record Adoption
+167,Tertiary Hospital,Lagos,Nigeria,Pharmacist,49,Male,Medication Error,Drug Interaction,Internal Medicine,Minor,Permanent Harm,Audit,Training Gap,Patient Report,Process Redesign
+168,Teaching Hospital,Plateau,Nigeria,Midwife,53,Male,Device/Equipment Error,Alarm Disabled,ICU,Severe,No Harm,Audit,Equipment Failure,Ministry Audit,Equipment Maintenance
+169,Teaching Hospital,Kano,Nigeria,Midwife,36,Female,Device/Equipment Error,Equipment Failure,Pediatrics,Minor,No Harm,Audit,Staff Shortage,Patient Report,Root Cause Analysis
+170,Tertiary Hospital,Plateau,Nigeria,Nurse,17,Female,Surgical Mistake,Anesthesia Complication,Pediatrics,Minor,Temporary Harm,Self-report,Miscommunication,Patient Report,Equipment Maintenance
+171,Teaching Hospital,Imo,Nigeria,Lab Scientist,52,Female,Infection Control Error,Improper Sterilization,Internal Medicine,Minor,No Harm,Electronic System Alert,Training Gap,Patient Report,Staff Training
+172,Specialist Hospital,Enugu,Nigeria,Pharmacist,52,Male,Medication Error,Wrong Drug,Pediatrics,Minor,Temporary Harm,Electronic System Alert,System Error,Ministry Audit,Digital Record Adoption
+173,General Hospital,Edo,Nigeria,Midwife,13,Male,Diagnostic Error,Missed Diagnosis,Pharmacy,Moderate,No Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+174,Tertiary Hospital,Ogun,Nigeria,Doctor,22,Female,Infection Control Error,Hand Hygiene Failure,Surgery,Minor,No Harm,Self-report,Miscommunication,Internal Hospital Log,Equipment Maintenance
+175,Tertiary Hospital,Plateau,Nigeria,Pharmacist,50,Female,Diagnostic Error,Missed Diagnosis,Outpatient,Moderate,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Digital Record Adoption
+176,Tertiary Hospital,Enugu,Nigeria,Lab Scientist,18,Male,Diagnostic Error,Missed Diagnosis,Pharmacy,Minor,No Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Process Redesign
+177,Tertiary Hospital,Kaduna,Nigeria,Midwife,24,Male,Diagnostic Error,Wrong Test Ordered,ICU,Moderate,Temporary Harm,Self-report,Training Gap,Ministry Audit,Root Cause Analysis
+178,Tertiary Hospital,Enugu,Nigeria,Lab Scientist,58,Female,Diagnostic Error,Delayed Diagnosis,Pediatrics,Moderate,No Harm,Electronic System Alert,System Error,Patient Report,SOP Update
+179,Specialist Hospital,Rivers,Nigeria,Doctor,27,Male,Transfusion Error,Mislabeled Sample,Internal Medicine,Moderate,Permanent Harm,Self-report,System Error,Patient Report,Staff Training
+180,Specialist Hospital,Imo,Nigeria,Lab Scientist,27,Female,Documentation Error,Illegible Order,Pediatrics,Minor,No Harm,Self-report,Staff Shortage,Patient Report,SOP Update
+181,Teaching Hospital,Kano,Nigeria,Lab Scientist,16,Male,Surgical Mistake,Post-op Bleed,Pediatrics,Minor,Temporary Harm,Patient Complaint,Miscommunication,Ministry Audit,Digital Record Adoption
+182,Specialist Hospital,Edo,Nigeria,Doctor,5,Female,Transfusion Error,Mislabeled Sample,Pediatrics,Minor,Temporary Harm,Self-report,System Error,Internal Hospital Log,Equipment Maintenance
+183,Teaching Hospital,Edo,Nigeria,Doctor,43,Female,Surgical Mistake,Post-op Bleed,Pediatrics,Minor,No Harm,Self-report,Training Gap,Patient Report,Digital Record Adoption
+184,Teaching Hospital,Enugu,Nigeria,Pharmacist,7,Female,Surgical Mistake,Wrong Procedure,Orthopedics,Minor,No Harm,Electronic System Alert,Training Gap,Patient Report,Process Redesign
+185,Specialist Hospital,Rivers,Nigeria,Midwife,16,Male,Infection Control Error,Improper Sterilization,Outpatient,Minor,Temporary Harm,Patient Complaint,Training Gap,Internal Hospital Log,Staff Training
+186,Teaching Hospital,Enugu,Nigeria,Midwife,44,Male,Documentation Error,Incomplete Record,Maternity,Moderate,No Harm,Self-report,System Error,Internal Hospital Log,Process Redesign
+187,Tertiary Hospital,FCT,Nigeria,Lab Scientist,19,Female,Documentation Error,Wrong Patient Chart,Pediatrics,Minor,No Harm,Patient Complaint,System Error,Ministry Audit,Digital Record Adoption
+188,Specialist Hospital,Plateau,Nigeria,Lab Scientist,5,Female,Surgical Mistake,Post-op Bleed,Pediatrics,Moderate,No Harm,Electronic System Alert,System Error,Ministry Audit,Equipment Maintenance
+189,Teaching Hospital,Enugu,Nigeria,Midwife,53,Male,Documentation Error,Illegible Order,Pharmacy,Minor,No Harm,Self-report,Training Gap,Ministry Audit,Digital Record Adoption
+190,Teaching Hospital,Oyo,Nigeria,Nurse,16,Female,Medication Error,Wrong Drug,Outpatient,Sentinel,Temporary Harm,Audit,Staff Shortage,Patient Report,Process Redesign
+191,Specialist Hospital,Plateau,Nigeria,Doctor,24,Male,Diagnostic Error,Missed Diagnosis,Internal Medicine,Severe,Temporary Harm,Self-report,Fatigue,Ministry Audit,SOP Update
+192,Specialist Hospital,Plateau,Nigeria,Nurse,31,Female,Medication Error,Expired Product,Outpatient,Severe,Permanent Harm,Electronic System Alert,Training Gap,Ministry Audit,Root Cause Analysis
+193,Tertiary Hospital,Oyo,Nigeria,Midwife,30,Male,Medication Error,Wrong Drug,Pediatrics,Minor,Permanent Harm,Audit,Equipment Failure,Internal Hospital Log,Process Redesign
+194,General Hospital,Kaduna,Nigeria,Pharmacist,53,Female,Diagnostic Error,Result Misinterpretation,Pharmacy,Minor,Temporary Harm,Audit,Miscommunication,Patient Report,Root Cause Analysis
+195,Specialist Hospital,Edo,Nigeria,Doctor,44,Male,Surgical Mistake,Wrong Procedure,Outpatient,Moderate,Temporary Harm,Self-report,Fatigue,Patient Report,Staff Training
+196,Teaching Hospital,Enugu,Nigeria,Midwife,16,Male,Medication Error,Wrong Drug,ICU,Minor,No Harm,Patient Complaint,System Error,Ministry Audit,SOP Update
+197,Teaching Hospital,Enugu,Nigeria,Doctor,4,Female,Medication Error,Wrong Dose,Pediatrics,Severe,No Harm,Patient Complaint,System Error,Patient Report,Equipment Maintenance
+198,Tertiary Hospital,Edo,Nigeria,Midwife,18,Female,Device/Equipment Error,Power Loss,ICU,Sentinel,Temporary Harm,Electronic System Alert,Miscommunication,Ministry Audit,Process Redesign
+199,General Hospital,Edo,Nigeria,Pharmacist,59,Female,Medication Error,Omitted Dose,Pharmacy,Minor,No Harm,Patient Complaint,Miscommunication,Internal Hospital Log,Root Cause Analysis
+200,Tertiary Hospital,Rivers,Nigeria,Midwife,52,Female,Medication Error,Wrong Drug,Pharmacy,Severe,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Process Redesign
+201,General Hospital,Oyo,Nigeria,Midwife,57,Male,Device/Equipment Error,Power Loss,Orthopedics,Minor,Temporary Harm,Self-report,Fatigue,Ministry Audit,Root Cause Analysis
+202,Teaching Hospital,Enugu,Nigeria,Lab Scientist,0,Female,Medication Error,Omitted Dose,Emergency,Minor,No Harm,Self-report,System Error,Ministry Audit,Equipment Maintenance
+203,Specialist Hospital,Kano,Nigeria,Doctor,34,Male,Documentation Error,Wrong Patient Chart,Outpatient,Minor,No Harm,Self-report,Training Gap,Internal Hospital Log,Digital Record Adoption
+204,General Hospital,Kano,Nigeria,Pharmacist,54,Female,Documentation Error,Illegible Order,Pharmacy,Severe,No Harm,Patient Complaint,Fatigue,Patient Report,Equipment Maintenance
+205,General Hospital,Rivers,Nigeria,Doctor,23,Male,Surgical Mistake,Post-op Bleed,ICU,Moderate,No Harm,Self-report,System Error,Ministry Audit,Digital Record Adoption
+206,Teaching Hospital,Rivers,Nigeria,Doctor,27,Female,Diagnostic Error,Result Misinterpretation,Emergency,Severe,Temporary Harm,Electronic System Alert,Training Gap,Patient Report,Root Cause Analysis
+207,Teaching Hospital,Imo,Nigeria,Pharmacist,38,Female,Diagnostic Error,Delayed Diagnosis,Orthopedics,Moderate,Death,Self-report,System Error,Internal Hospital Log,Staff Training
+208,Specialist Hospital,Imo,Nigeria,Midwife,17,Female,Surgical Mistake,Post-op Bleed,Emergency,Moderate,No Harm,Electronic System Alert,System Error,Internal Hospital Log,Root Cause Analysis
+209,Tertiary Hospital,Oyo,Nigeria,Pharmacist,27,Female,Medication Error,Wrong Dose,Outpatient,Severe,Temporary Harm,Self-report,Fatigue,Patient Report,Staff Training
+210,General Hospital,Plateau,Nigeria,Midwife,23,Female,Surgical Mistake,Anesthesia Complication,Pharmacy,Minor,No Harm,Self-report,System Error,Patient Report,Process Redesign
+211,Teaching Hospital,Kaduna,Nigeria,Nurse,56,Male,Medication Error,Wrong Dose,Outpatient,Minor,Death,Self-report,Equipment Failure,Patient Report,Digital Record Adoption
+212,Specialist Hospital,Oyo,Nigeria,Lab Scientist,39,Male,Medication Error,Wrong Route,Pediatrics,Moderate,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Staff Training
+213,Teaching Hospital,Kaduna,Nigeria,Nurse,30,Female,Medication Error,Drug Interaction,Surgery,Moderate,No Harm,Self-report,Fatigue,Patient Report,Equipment Maintenance
+214,General Hospital,Imo,Nigeria,Nurse,56,Male,Documentation Error,Wrong Patient Chart,Internal Medicine,Moderate,No Harm,Audit,Training Gap,Patient Report,Equipment Maintenance
+215,Specialist Hospital,Imo,Nigeria,Midwife,34,Female,Documentation Error,Illegible Order,Orthopedics,Minor,No Harm,Electronic System Alert,Fatigue,Patient Report,Digital Record Adoption
+216,General Hospital,Edo,Nigeria,Midwife,14,Male,Medication Error,Omitted Dose,Emergency,Moderate,No Harm,Electronic System Alert,System Error,Ministry Audit,Process Redesign
+217,Teaching Hospital,Rivers,Nigeria,Lab Scientist,55,Male,Medication Error,Drug Interaction,Internal Medicine,Minor,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Staff Training
+218,Tertiary Hospital,Kano,Nigeria,Pharmacist,22,Female,Medication Error,Wrong Drug,ICU,Severe,Temporary Harm,Audit,Training Gap,Internal Hospital Log,Equipment Maintenance
+219,Specialist Hospital,Ogun,Nigeria,Lab Scientist,47,Female,Medication Error,Expired Product,Pharmacy,Moderate,Permanent Harm,Audit,System Error,Ministry Audit,Process Redesign
+220,General Hospital,Kaduna,Nigeria,Lab Scientist,24,Male,Diagnostic Error,Wrong Test Ordered,Internal Medicine,Minor,Temporary Harm,Electronic System Alert,Miscommunication,Patient Report,SOP Update
+221,Tertiary Hospital,Rivers,Nigeria,Nurse,33,Male,Device/Equipment Error,Calibration Error,Internal Medicine,Minor,Temporary Harm,Patient Complaint,Miscommunication,Patient Report,Root Cause Analysis
+222,Specialist Hospital,FCT,Nigeria,Nurse,46,Female,Documentation Error,Incomplete Record,ICU,Minor,Temporary Harm,Patient Complaint,System Error,Internal Hospital Log,Root Cause Analysis
+223,Tertiary Hospital,Plateau,Nigeria,Doctor,59,Male,Infection Control Error,Hand Hygiene Failure,Orthopedics,Minor,No Harm,Self-report,System Error,Internal Hospital Log,Equipment Maintenance
+224,Teaching Hospital,Oyo,Nigeria,Midwife,53,Female,Medication Error,Wrong Route,Surgery,Moderate,No Harm,Self-report,Fatigue,Patient Report,SOP Update
+225,General Hospital,Plateau,Nigeria,Doctor,49,Female,Transfusion Error,Wrong Blood Type,Pediatrics,Moderate,No Harm,Self-report,Miscommunication,Ministry Audit,Root Cause Analysis
+226,Specialist Hospital,Kano,Nigeria,Lab Scientist,37,Female,Medication Error,Wrong Dose,Pharmacy,Severe,Permanent Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Equipment Maintenance
+227,Tertiary Hospital,Plateau,Nigeria,Nurse,26,Female,Medication Error,Expired Product,Outpatient,Minor,No Harm,Self-report,Training Gap,Patient Report,Equipment Maintenance
+228,Teaching Hospital,Ogun,Nigeria,Nurse,50,Male,Diagnostic Error,Delayed Diagnosis,Internal Medicine,Moderate,Temporary Harm,Self-report,Equipment Failure,Patient Report,Digital Record Adoption
+229,Teaching Hospital,Lagos,Nigeria,Lab Scientist,0,Male,Diagnostic Error,Result Misinterpretation,Surgery,Severe,Permanent Harm,Self-report,Miscommunication,Ministry Audit,Process Redesign
+230,Tertiary Hospital,Edo,Nigeria,Pharmacist,58,Male,Documentation Error,Wrong Patient Chart,Maternity,Minor,Temporary Harm,Audit,Equipment Failure,Ministry Audit,SOP Update
+231,Teaching Hospital,Rivers,Nigeria,Midwife,0,Male,Surgical Mistake,Wrong Procedure,Maternity,Moderate,No Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+232,Tertiary Hospital,Ogun,Nigeria,Doctor,48,Male,Surgical Mistake,Retained Item,Maternity,Minor,No Harm,Electronic System Alert,Staff Shortage,Ministry Audit,Digital Record Adoption
+233,Tertiary Hospital,Lagos,Nigeria,Midwife,25,Male,Diagnostic Error,Result Misinterpretation,Internal Medicine,Minor,Permanent Harm,Audit,System Error,Patient Report,Process Redesign
+234,Tertiary Hospital,Plateau,Nigeria,Pharmacist,60,Female,Device/Equipment Error,Calibration Error,Emergency,Minor,Permanent Harm,Electronic System Alert,Miscommunication,Ministry Audit,SOP Update
+235,Tertiary Hospital,Ogun,Nigeria,Nurse,66,Male,Medication Error,Wrong Dose,Maternity,Moderate,Permanent Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Equipment Maintenance
+236,General Hospital,Edo,Nigeria,Pharmacist,38,Female,Surgical Mistake,Retained Item,Internal Medicine,Moderate,Temporary Harm,Self-report,Equipment Failure,Internal Hospital Log,Process Redesign
+237,Specialist Hospital,Imo,Nigeria,Lab Scientist,30,Female,Surgical Mistake,Anesthesia Complication,Outpatient,Severe,Temporary Harm,Audit,Equipment Failure,Patient Report,Process Redesign
+238,Specialist Hospital,Lagos,Nigeria,Nurse,19,Male,Documentation Error,Illegible Order,Maternity,Severe,Temporary Harm,Electronic System Alert,Miscommunication,Ministry Audit,Staff Training
+239,Tertiary Hospital,Lagos,Nigeria,Doctor,56,Female,Medication Error,Omitted Dose,Internal Medicine,Minor,No Harm,Self-report,Fatigue,Patient Report,Staff Training
+240,Specialist Hospital,Enugu,Nigeria,Midwife,64,Female,Device/Equipment Error,Power Loss,Orthopedics,Moderate,No Harm,Audit,System Error,Ministry Audit,SOP Update
+241,General Hospital,FCT,Nigeria,Pharmacist,43,Male,Infection Control Error,Catheter-Related Infection,Orthopedics,Minor,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Process Redesign
+242,Specialist Hospital,Oyo,Nigeria,Lab Scientist,44,Female,Medication Error,Omitted Dose,ICU,Severe,Temporary Harm,Patient Complaint,Fatigue,Internal Hospital Log,Process Redesign
+243,Tertiary Hospital,Kaduna,Nigeria,Doctor,60,Female,Medication Error,Wrong Drug,Emergency,Severe,No Harm,Self-report,System Error,Internal Hospital Log,Root Cause Analysis
+244,General Hospital,Edo,Nigeria,Doctor,24,Male,Medication Error,Wrong Dose,Internal Medicine,Moderate,Temporary Harm,Electronic System Alert,Fatigue,Patient Report,Staff Training
+245,General Hospital,Lagos,Nigeria,Nurse,19,Male,Surgical Mistake,Post-op Bleed,Pediatrics,Minor,Permanent Harm,Patient Complaint,System Error,Internal Hospital Log,Equipment Maintenance
+246,Teaching Hospital,Kano,Nigeria,Pharmacist,37,Female,Medication Error,Wrong Drug,Emergency,Minor,Permanent Harm,Audit,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+247,General Hospital,Plateau,Nigeria,Pharmacist,37,Female,Medication Error,Wrong Route,Surgery,Minor,No Harm,Patient Complaint,System Error,Patient Report,Process Redesign
+248,General Hospital,Imo,Nigeria,Pharmacist,39,Male,Medication Error,Drug Interaction,ICU,Moderate,Permanent Harm,Self-report,System Error,Ministry Audit,Equipment Maintenance
+249,Teaching Hospital,Kano,Nigeria,Midwife,25,Male,Surgical Mistake,Wrong Site,Internal Medicine,Moderate,No Harm,Self-report,Fatigue,Ministry Audit,Root Cause Analysis
+250,Tertiary Hospital,FCT,Nigeria,Midwife,39,Female,Medication Error,Drug Interaction,Pediatrics,Moderate,Temporary Harm,Electronic System Alert,Staff Shortage,Patient Report,Root Cause Analysis
+251,General Hospital,Plateau,Nigeria,Midwife,5,Female,Medication Error,Wrong Drug,Maternity,Severe,Permanent Harm,Patient Complaint,Staff Shortage,Internal Hospital Log,Process Redesign
+252,General Hospital,Kaduna,Nigeria,Midwife,43,Male,Device/Equipment Error,Equipment Failure,Outpatient,Minor,No Harm,Self-report,Miscommunication,Patient Report,Staff Training
+253,Tertiary Hospital,Edo,Nigeria,Doctor,13,Male,Medication Error,Wrong Drug,ICU,Minor,Temporary Harm,Electronic System Alert,Miscommunication,Ministry Audit,SOP Update
+254,Specialist Hospital,Imo,Nigeria,Midwife,21,Male,Transfusion Error,Over-transfusion,Maternity,Moderate,No Harm,Electronic System Alert,Fatigue,Ministry Audit,SOP Update
+255,Specialist Hospital,Enugu,Nigeria,Doctor,28,Male,Surgical Mistake,Wrong Site,Maternity,Moderate,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,Root Cause Analysis
+256,General Hospital,Lagos,Nigeria,Midwife,19,Female,Surgical Mistake,Post-op Bleed,ICU,Moderate,No Harm,Self-report,Miscommunication,Ministry Audit,SOP Update
+257,Teaching Hospital,Oyo,Nigeria,Midwife,17,Male,Diagnostic Error,Wrong Test Ordered,Emergency,Minor,No Harm,Electronic System Alert,Staff Shortage,Patient Report,Staff Training
+258,General Hospital,Oyo,Nigeria,Doctor,37,Male,Diagnostic Error,Missed Diagnosis,ICU,Moderate,No Harm,Self-report,Training Gap,Ministry Audit,Process Redesign
+259,Tertiary Hospital,Plateau,Nigeria,Midwife,56,Female,Documentation Error,Misfiled Result,Emergency,Minor,Permanent Harm,Self-report,Fatigue,Ministry Audit,Process Redesign
+260,General Hospital,Kano,Nigeria,Doctor,9,Female,Medication Error,Expired Product,Orthopedics,Moderate,Temporary Harm,Self-report,Training Gap,Patient Report,SOP Update
+261,Teaching Hospital,FCT,Nigeria,Nurse,48,Male,Medication Error,Expired Product,Pediatrics,Minor,Temporary Harm,Electronic System Alert,Equipment Failure,Patient Report,Process Redesign
+262,Specialist Hospital,Kano,Nigeria,Lab Scientist,52,Male,Diagnostic Error,Wrong Test Ordered,Orthopedics,Moderate,Temporary Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Staff Training
+263,Tertiary Hospital,Plateau,Nigeria,Nurse,54,Male,Surgical Mistake,Retained Item,Outpatient,Moderate,No Harm,Patient Complaint,Fatigue,Patient Report,Equipment Maintenance
+264,Teaching Hospital,Oyo,Nigeria,Midwife,66,Male,Documentation Error,Misfiled Result,Surgery,Moderate,Permanent Harm,Audit,Fatigue,Ministry Audit,Process Redesign
+265,Tertiary Hospital,Lagos,Nigeria,Midwife,4,Male,Diagnostic Error,Delayed Diagnosis,Internal Medicine,Moderate,Permanent Harm,Self-report,Fatigue,Ministry Audit,Process Redesign
+266,Specialist Hospital,FCT,Nigeria,Midwife,27,Female,Medication Error,Wrong Drug,Surgery,Moderate,Temporary Harm,Audit,Staff Shortage,Patient Report,Process Redesign
+267,Teaching Hospital,Edo,Nigeria,Doctor,55,Male,Medication Error,Expired Product,Pharmacy,Severe,No Harm,Self-report,Training Gap,Internal Hospital Log,Digital Record Adoption
+268,Teaching Hospital,Imo,Nigeria,Midwife,58,Male,Diagnostic Error,Missed Diagnosis,Pediatrics,Severe,No Harm,Electronic System Alert,Training Gap,Patient Report,Digital Record Adoption
+269,Specialist Hospital,Kaduna,Nigeria,Nurse,12,Male,Diagnostic Error,Result Misinterpretation,Pharmacy,Severe,No Harm,Self-report,Training Gap,Patient Report,Digital Record Adoption
+270,Tertiary Hospital,Oyo,Nigeria,Lab Scientist,64,Male,Medication Error,Drug Interaction,Emergency,Moderate,No Harm,Electronic System Alert,System Error,Patient Report,Staff Training
+271,Tertiary Hospital,Edo,Nigeria,Nurse,44,Male,Diagnostic Error,Result Misinterpretation,Pharmacy,Minor,No Harm,Electronic System Alert,Training Gap,Ministry Audit,Digital Record Adoption
+272,General Hospital,Edo,Nigeria,Doctor,65,Female,Medication Error,Wrong Dose,ICU,Moderate,No Harm,Self-report,Fatigue,Patient Report,Root Cause Analysis
+273,Teaching Hospital,Imo,Nigeria,Pharmacist,43,Female,Medication Error,Wrong Route,Maternity,Minor,Temporary Harm,Self-report,Miscommunication,Internal Hospital Log,Digital Record Adoption
+274,Tertiary Hospital,Rivers,Nigeria,Pharmacist,45,Female,Diagnostic Error,Missed Diagnosis,Outpatient,Severe,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Root Cause Analysis
+275,Tertiary Hospital,Lagos,Nigeria,Nurse,41,Male,Medication Error,Wrong Route,Outpatient,Minor,No Harm,Audit,Training Gap,Internal Hospital Log,Digital Record Adoption
+276,Tertiary Hospital,Imo,Nigeria,Nurse,21,Female,Infection Control Error,Hand Hygiene Failure,ICU,Moderate,No Harm,Patient Complaint,Equipment Failure,Ministry Audit,Process Redesign
+277,Tertiary Hospital,Plateau,Nigeria,Midwife,26,Female,Medication Error,Omitted Dose,Surgery,Moderate,Permanent Harm,Self-report,Staff Shortage,Internal Hospital Log,Digital Record Adoption
