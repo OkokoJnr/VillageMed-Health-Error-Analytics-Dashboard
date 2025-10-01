@@ -1,0 +1,278 @@
+patient_id,hospital_facility_type,state,country,reporting_staff_role,patient_age,patient_gender,error_type,error_subtype,department,severity_level,outcome,detection_method,contributing_factor,report_source,corrective_action
+1,General Hospital,Mbale,Tanzania,Pharmacist,1,Male,Device/Equipment Error,Calibration Error,Pharmacy,Minor,Permanent Harm,Audit,Fatigue,Ministry Audit,Staff Training
+2,Teaching Hospital,Kampala,Kenya,Lab Scientist,40,Male,Transfusion Error,Over-transfusion,Pediatrics,Minor,Permanent Harm,Self-report,Staff Shortage,Internal Hospital Log,SOP Update
+3,Specialist Hospital,Nairobi,Uganda,Lab Scientist,42,Female,Medication Error,Wrong Dose,Pharmacy,Severe,No Harm,Self-report,System Error,Ministry Audit,Process Redesign
+4,Teaching Hospital,Dodoma,Uganda,Doctor,59,Male,Surgical Mistake,Retained Item,Maternity,Moderate,No Harm,Electronic System Alert,Training Gap,Patient Report,Process Redesign
+5,General Hospital,Dar es Salaam,Uganda,Nurse,48,Male,Surgical Mistake,Retained Item,Outpatient,Minor,Permanent Harm,Audit,Fatigue,Internal Hospital Log,Digital Record Adoption
+6,Tertiary Hospital,Kampala,Tanzania,Pharmacist,37,Male,Surgical Mistake,Wrong Site,Maternity,Moderate,No Harm,Self-report,System Error,Internal Hospital Log,Digital Record Adoption
+7,Specialist Hospital,Kampala,Tanzania,Pharmacist,15,Female,Surgical Mistake,Anesthesia Complication,Internal Medicine,Moderate,No Harm,Self-report,Training Gap,Ministry Audit,Digital Record Adoption
+8,General Hospital,Mbale,Uganda,Lab Scientist,37,Female,Medication Error,Drug Interaction,Orthopedics,Moderate,No Harm,Electronic System Alert,System Error,Internal Hospital Log,SOP Update
+9,Tertiary Hospital,Dar es Salaam,Kenya,Doctor,48,Female,Medication Error,Wrong Route,Emergency,Moderate,No Harm,Electronic System Alert,System Error,Ministry Audit,Digital Record Adoption
+10,Tertiary Hospital,Kisumu,Kenya,Lab Scientist,55,Female,Medication Error,Omitted Dose,ICU,Sentinel,No Harm,Patient Complaint,System Error,Ministry Audit,Root Cause Analysis
+11,Teaching Hospital,Dar es Salaam,Kenya,Nurse,43,Male,Medication Error,Wrong Route,Internal Medicine,Minor,No Harm,Patient Complaint,Staff Shortage,Patient Report,SOP Update
+12,Tertiary Hospital,Dar es Salaam,Kenya,Doctor,30,Male,Medication Error,Omitted Dose,Internal Medicine,Moderate,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,SOP Update
+13,Teaching Hospital,Kisii,Uganda,Doctor,13,Female,Medication Error,Omitted Dose,Surgery,Moderate,No Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+14,Teaching Hospital,Nairobi,Tanzania,Midwife,62,Male,Diagnostic Error,Delayed Diagnosis,ICU,Minor,No Harm,Self-report,Training Gap,Internal Hospital Log,Staff Training
+15,Teaching Hospital,Dar es Salaam,Tanzania,Pharmacist,30,Male,Infection Control Error,Improper Sterilization,Outpatient,Moderate,No Harm,Audit,Staff Shortage,Patient Report,SOP Update
+16,Teaching Hospital,Kampala,Kenya,Midwife,31,Male,Infection Control Error,Catheter-Related Infection,Orthopedics,Minor,No Harm,Self-report,Miscommunication,Internal Hospital Log,Digital Record Adoption
+17,Tertiary Hospital,Mbale,Kenya,Lab Scientist,21,Male,Diagnostic Error,Wrong Test Ordered,Orthopedics,Minor,No Harm,Electronic System Alert,Fatigue,Patient Report,Equipment Maintenance
+18,General Hospital,Dodoma,Kenya,Lab Scientist,25,Female,Medication Error,Expired Product,Orthopedics,Minor,Temporary Harm,Patient Complaint,Miscommunication,Patient Report,Root Cause Analysis
+19,General Hospital,Kisumu,Tanzania,Doctor,60,Female,Device/Equipment Error,Equipment Failure,Pediatrics,Moderate,Temporary Harm,Audit,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+20,Tertiary Hospital,Kisii,Uganda,Nurse,62,Female,Diagnostic Error,Delayed Diagnosis,Surgery,Sentinel,Permanent Harm,Self-report,Fatigue,Ministry Audit,Digital Record Adoption
+21,General Hospital,Kampala,Tanzania,Midwife,26,Female,Documentation Error,Misfiled Result,ICU,Moderate,No Harm,Self-report,Miscommunication,Ministry Audit,Root Cause Analysis
+22,Tertiary Hospital,Kampala,Uganda,Pharmacist,59,Male,Medication Error,Omitted Dose,Orthopedics,Minor,Temporary Harm,Self-report,Training Gap,Ministry Audit,Root Cause Analysis
+23,Specialist Hospital,Mbale,Tanzania,Pharmacist,57,Male,Medication Error,Omitted Dose,Orthopedics,Moderate,No Harm,Self-report,Fatigue,Internal Hospital Log,Process Redesign
+24,General Hospital,Kisii,Kenya,Midwife,39,Male,Medication Error,Wrong Dose,Emergency,Sentinel,No Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+25,Specialist Hospital,Kisii,Uganda,Midwife,29,Male,Medication Error,Wrong Route,Emergency,Moderate,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Process Redesign
+26,General Hospital,Nairobi,Tanzania,Lab Scientist,11,Male,Medication Error,Wrong Route,Maternity,Minor,Temporary Harm,Electronic System Alert,Fatigue,Ministry Audit,Equipment Maintenance
+27,Specialist Hospital,Mbale,Tanzania,Nurse,52,Male,Device/Equipment Error,Alarm Disabled,Surgery,Minor,No Harm,Self-report,Miscommunication,Patient Report,Root Cause Analysis
+28,Tertiary Hospital,Dar es Salaam,Kenya,Midwife,33,Male,Medication Error,Drug Interaction,Outpatient,Severe,No Harm,Electronic System Alert,System Error,Ministry Audit,Digital Record Adoption
+29,Teaching Hospital,Mbarara,Uganda,Pharmacist,42,Male,Surgical Mistake,Post-op Bleed,Surgery,Moderate,No Harm,Electronic System Alert,Miscommunication,Patient Report,Digital Record Adoption
+30,General Hospital,Kisumu,Uganda,Pharmacist,7,Female,Diagnostic Error,Wrong Test Ordered,Internal Medicine,Severe,Temporary Harm,Audit,Equipment Failure,Ministry Audit,Digital Record Adoption
+31,Tertiary Hospital,Nairobi,Uganda,Midwife,26,Female,Infection Control Error,Catheter-Related Infection,ICU,Moderate,Permanent Harm,Self-report,Fatigue,Internal Hospital Log,SOP Update
+32,Specialist Hospital,Mbale,Tanzania,Midwife,46,Male,Medication Error,Wrong Route,Pharmacy,Moderate,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+33,General Hospital,Dodoma,Kenya,Doctor,50,Female,Surgical Mistake,Anesthesia Complication,Pharmacy,Minor,No Harm,Audit,System Error,Patient Report,SOP Update
+34,Teaching Hospital,Kisii,Uganda,Lab Scientist,36,Female,Infection Control Error,Catheter-Related Infection,ICU,Minor,Temporary Harm,Self-report,Miscommunication,Ministry Audit,Process Redesign
+35,Specialist Hospital,Mbarara,Uganda,Doctor,25,Female,Medication Error,Wrong Route,Pharmacy,Minor,Temporary Harm,Audit,Staff Shortage,Ministry Audit,SOP Update
+36,Specialist Hospital,Nairobi,Kenya,Doctor,25,Female,Medication Error,Expired Product,Orthopedics,Minor,No Harm,Self-report,System Error,Internal Hospital Log,Root Cause Analysis
+37,Specialist Hospital,Mbarara,Tanzania,Pharmacist,0,Male,Surgical Mistake,Anesthesia Complication,Emergency,Severe,No Harm,Electronic System Alert,Miscommunication,Patient Report,Equipment Maintenance
+38,General Hospital,Dar es Salaam,Tanzania,Nurse,41,Male,Surgical Mistake,Wrong Site,ICU,Minor,No Harm,Patient Complaint,Fatigue,Ministry Audit,Digital Record Adoption
+39,Specialist Hospital,Nairobi,Tanzania,Nurse,0,Female,Documentation Error,Wrong Patient Chart,Orthopedics,Severe,No Harm,Audit,Staff Shortage,Ministry Audit,Staff Training
+40,Tertiary Hospital,Mbarara,Tanzania,Doctor,21,Male,Documentation Error,Incomplete Record,Surgery,Moderate,Permanent Harm,Self-report,Training Gap,Patient Report,Root Cause Analysis
+41,General Hospital,Arusha,Kenya,Lab Scientist,42,Female,Medication Error,Wrong Drug,Maternity,Minor,No Harm,Patient Complaint,Training Gap,Internal Hospital Log,Staff Training
+42,Specialist Hospital,Arusha,Kenya,Doctor,37,Male,Documentation Error,Incomplete Record,Maternity,Minor,No Harm,Self-report,Miscommunication,Ministry Audit,Process Redesign
+43,General Hospital,Mbarara,Kenya,Midwife,36,Female,Diagnostic Error,Wrong Test Ordered,Surgery,Moderate,Permanent Harm,Audit,System Error,Ministry Audit,Digital Record Adoption
+44,General Hospital,Kampala,Uganda,Nurse,48,Male,Transfusion Error,Transfusion Reaction,Internal Medicine,Moderate,No Harm,Patient Complaint,System Error,Ministry Audit,Equipment Maintenance
+45,Specialist Hospital,Dodoma,Tanzania,Doctor,64,Male,Documentation Error,Misfiled Result,Emergency,Minor,No Harm,Self-report,Staff Shortage,Patient Report,SOP Update
+46,General Hospital,Arusha,Kenya,Nurse,29,Female,Medication Error,Wrong Drug,ICU,Sentinel,No Harm,Electronic System Alert,System Error,Internal Hospital Log,SOP Update
+47,Specialist Hospital,Mbale,Uganda,Lab Scientist,25,Female,Surgical Mistake,Post-op Bleed,ICU,Minor,No Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+48,Specialist Hospital,Kisumu,Tanzania,Pharmacist,47,Female,Medication Error,Drug Interaction,Internal Medicine,Severe,Permanent Harm,Patient Complaint,Fatigue,Internal Hospital Log,Equipment Maintenance
+49,General Hospital,Arusha,Uganda,Nurse,27,Male,Medication Error,Wrong Drug,Outpatient,Minor,No Harm,Electronic System Alert,Miscommunication,Patient Report,SOP Update
+50,Tertiary Hospital,Dar es Salaam,Tanzania,Midwife,48,Male,Transfusion Error,Wrong Blood Type,Surgery,Severe,No Harm,Audit,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+51,Teaching Hospital,Kampala,Kenya,Midwife,0,Female,Diagnostic Error,Wrong Test Ordered,Maternity,Minor,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+52,General Hospital,Arusha,Uganda,Pharmacist,34,Male,Transfusion Error,Over-transfusion,Outpatient,Moderate,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Process Redesign
+53,Teaching Hospital,Kisii,Uganda,Lab Scientist,61,Female,Surgical Mistake,Post-op Bleed,Emergency,Moderate,No Harm,Self-report,Miscommunication,Patient Report,Root Cause Analysis
+54,Tertiary Hospital,Nairobi,Tanzania,Doctor,31,Female,Medication Error,Drug Interaction,Maternity,Moderate,No Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+55,Teaching Hospital,Dodoma,Uganda,Pharmacist,6,Female,Diagnostic Error,Wrong Test Ordered,Pediatrics,Minor,Temporary Harm,Self-report,Miscommunication,Patient Report,Process Redesign
+56,Tertiary Hospital,Dar es Salaam,Tanzania,Lab Scientist,49,Female,Surgical Mistake,Retained Item,Pediatrics,Minor,Temporary Harm,Electronic System Alert,Miscommunication,Ministry Audit,Staff Training
+57,Specialist Hospital,Mbarara,Tanzania,Lab Scientist,31,Male,Surgical Mistake,Anesthesia Complication,ICU,Moderate,Permanent Harm,Patient Complaint,Fatigue,Internal Hospital Log,SOP Update
+58,General Hospital,Kampala,Tanzania,Pharmacist,33,Female,Infection Control Error,Hand Hygiene Failure,Pediatrics,Minor,No Harm,Audit,Staff Shortage,Ministry Audit,Equipment Maintenance
+59,Teaching Hospital,Mbale,Kenya,Midwife,17,Female,Medication Error,Omitted Dose,Pediatrics,Severe,No Harm,Audit,System Error,Ministry Audit,Equipment Maintenance
+60,Tertiary Hospital,Kisumu,Uganda,Midwife,39,Female,Medication Error,Wrong Dose,ICU,Moderate,Temporary Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Root Cause Analysis
+61,Tertiary Hospital,Nairobi,Kenya,Lab Scientist,32,Female,Documentation Error,Wrong Patient Chart,Surgery,Minor,No Harm,Electronic System Alert,System Error,Ministry Audit,Staff Training
+62,Tertiary Hospital,Kisii,Kenya,Doctor,24,Female,Medication Error,Wrong Drug,Emergency,Moderate,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Staff Training
+63,Specialist Hospital,Kisumu,Kenya,Midwife,42,Female,Documentation Error,Wrong Patient Chart,ICU,Moderate,No Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Equipment Maintenance
+64,Specialist Hospital,Kisii,Tanzania,Doctor,38,Male,Infection Control Error,Aseptic Technique Break,Orthopedics,Minor,Temporary Harm,Audit,Equipment Failure,Ministry Audit,Root Cause Analysis
+65,Specialist Hospital,Mbarara,Tanzania,Nurse,72,Female,Surgical Mistake,Wrong Procedure,Pharmacy,Moderate,No Harm,Self-report,Training Gap,Patient Report,Root Cause Analysis
+66,Tertiary Hospital,Dodoma,Tanzania,Doctor,46,Male,Medication Error,Drug Interaction,ICU,Minor,Temporary Harm,Self-report,Equipment Failure,Ministry Audit,Root Cause Analysis
+67,Specialist Hospital,Kampala,Tanzania,Nurse,22,Male,Medication Error,Drug Interaction,ICU,Moderate,No Harm,Electronic System Alert,System Error,Ministry Audit,Digital Record Adoption
+68,General Hospital,Mbarara,Tanzania,Nurse,71,Female,Medication Error,Wrong Route,Internal Medicine,Minor,No Harm,Patient Complaint,System Error,Internal Hospital Log,Staff Training
+69,Specialist Hospital,Kampala,Kenya,Midwife,12,Female,Medication Error,Expired Product,Pharmacy,Severe,Temporary Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+70,Teaching Hospital,Kisii,Uganda,Lab Scientist,7,Male,Surgical Mistake,Post-op Bleed,Surgery,Severe,No Harm,Self-report,Fatigue,Patient Report,Digital Record Adoption
+71,Teaching Hospital,Dar es Salaam,Uganda,Lab Scientist,38,Male,Medication Error,Drug Interaction,Pediatrics,Minor,No Harm,Self-report,Training Gap,Ministry Audit,Equipment Maintenance
+72,Specialist Hospital,Mbale,Tanzania,Midwife,9,Female,Medication Error,Wrong Dose,Surgery,Minor,Permanent Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Digital Record Adoption
+73,Tertiary Hospital,Arusha,Uganda,Nurse,1,Male,Infection Control Error,Hand Hygiene Failure,Internal Medicine,Moderate,Temporary Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+74,Specialist Hospital,Mbale,Kenya,Doctor,45,Male,Medication Error,Wrong Dose,Surgery,Minor,Temporary Harm,Audit,Training Gap,Ministry Audit,Equipment Maintenance
+75,General Hospital,Dodoma,Kenya,Midwife,29,Female,Device/Equipment Error,Calibration Error,Pediatrics,Minor,Temporary Harm,Patient Complaint,Fatigue,Patient Report,Process Redesign
+76,General Hospital,Kisumu,Uganda,Nurse,24,Male,Diagnostic Error,Missed Diagnosis,ICU,Moderate,Permanent Harm,Self-report,Training Gap,Ministry Audit,SOP Update
+77,Tertiary Hospital,Kisumu,Kenya,Nurse,30,Female,Medication Error,Wrong Drug,Emergency,Moderate,No Harm,Audit,Equipment Failure,Internal Hospital Log,Staff Training
+78,General Hospital,Dar es Salaam,Tanzania,Pharmacist,29,Female,Device/Equipment Error,Alarm Disabled,Pediatrics,Minor,Permanent Harm,Self-report,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+79,Tertiary Hospital,Kisumu,Kenya,Midwife,7,Female,Diagnostic Error,Wrong Test Ordered,Maternity,Severe,Permanent Harm,Electronic System Alert,Equipment Failure,Patient Report,Staff Training
+80,Specialist Hospital,Mbale,Tanzania,Doctor,35,Male,Device/Equipment Error,Alarm Disabled,Emergency,Moderate,Temporary Harm,Electronic System Alert,Training Gap,Internal Hospital Log,SOP Update
+81,Specialist Hospital,Kampala,Uganda,Pharmacist,22,Female,Surgical Mistake,Wrong Procedure,Pharmacy,Moderate,No Harm,Patient Complaint,Fatigue,Ministry Audit,Digital Record Adoption
+82,Teaching Hospital,Mbarara,Kenya,Doctor,0,Female,Medication Error,Wrong Dose,Internal Medicine,Minor,No Harm,Self-report,Miscommunication,Ministry Audit,Equipment Maintenance
+83,General Hospital,Nairobi,Uganda,Lab Scientist,25,Female,Documentation Error,Wrong Patient Chart,Orthopedics,Minor,Temporary Harm,Self-report,Equipment Failure,Patient Report,Root Cause Analysis
+84,General Hospital,Dar es Salaam,Uganda,Midwife,29,Female,Device/Equipment Error,Equipment Failure,ICU,Severe,Temporary Harm,Self-report,Fatigue,Ministry Audit,Process Redesign
+85,Teaching Hospital,Kisumu,Uganda,Midwife,27,Male,Medication Error,Wrong Route,Pharmacy,Moderate,No Harm,Electronic System Alert,Training Gap,Ministry Audit,Staff Training
+86,Tertiary Hospital,Kisii,Kenya,Lab Scientist,15,Female,Surgical Mistake,Wrong Procedure,Outpatient,Minor,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Staff Training
+87,Specialist Hospital,Kisumu,Tanzania,Midwife,18,Female,Documentation Error,Misfiled Result,Emergency,Minor,Death,Audit,Fatigue,Patient Report,SOP Update
+88,General Hospital,Dar es Salaam,Uganda,Doctor,41,Male,Medication Error,Expired Product,Orthopedics,Moderate,Permanent Harm,Self-report,System Error,Internal Hospital Log,Digital Record Adoption
+89,General Hospital,Kampala,Kenya,Lab Scientist,24,Female,Diagnostic Error,Wrong Test Ordered,Orthopedics,Moderate,No Harm,Audit,Fatigue,Internal Hospital Log,Staff Training
+90,General Hospital,Mbale,Kenya,Doctor,71,Male,Medication Error,Drug Interaction,Pharmacy,Moderate,No Harm,Audit,Miscommunication,Internal Hospital Log,SOP Update
+91,Tertiary Hospital,Nairobi,Tanzania,Lab Scientist,45,Female,Diagnostic Error,Result Misinterpretation,Surgery,Severe,Temporary Harm,Patient Complaint,Training Gap,Patient Report,Staff Training
+92,Specialist Hospital,Nairobi,Uganda,Nurse,26,Male,Infection Control Error,Hand Hygiene Failure,Pharmacy,Sentinel,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Process Redesign
+93,General Hospital,Kisumu,Kenya,Midwife,24,Female,Surgical Mistake,Retained Item,Surgery,Minor,No Harm,Self-report,Fatigue,Internal Hospital Log,Staff Training
+94,General Hospital,Kampala,Tanzania,Nurse,57,Female,Medication Error,Drug Interaction,Orthopedics,Moderate,Death,Patient Complaint,Miscommunication,Internal Hospital Log,Process Redesign
+95,Teaching Hospital,Kampala,Uganda,Nurse,43,Male,Medication Error,Wrong Route,Pharmacy,Moderate,No Harm,Self-report,Miscommunication,Internal Hospital Log,SOP Update
+96,General Hospital,Mbarara,Kenya,Midwife,50,Female,Medication Error,Drug Interaction,Internal Medicine,Minor,No Harm,Self-report,Training Gap,Internal Hospital Log,Process Redesign
+97,Teaching Hospital,Kampala,Kenya,Doctor,0,Female,Diagnostic Error,Missed Diagnosis,Pharmacy,Moderate,No Harm,Audit,Equipment Failure,Patient Report,SOP Update
+98,Teaching Hospital,Dar es Salaam,Uganda,Pharmacist,17,Male,Surgical Mistake,Post-op Bleed,Orthopedics,Moderate,Temporary Harm,Electronic System Alert,Staff Shortage,Ministry Audit,Digital Record Adoption
+99,Specialist Hospital,Mbale,Kenya,Lab Scientist,41,Female,Medication Error,Wrong Drug,Surgery,Minor,No Harm,Patient Complaint,Fatigue,Ministry Audit,Digital Record Adoption
+100,Teaching Hospital,Arusha,Uganda,Doctor,23,Female,Infection Control Error,Aseptic Technique Break,Outpatient,Moderate,Temporary Harm,Self-report,Staff Shortage,Patient Report,Digital Record Adoption
+101,Teaching Hospital,Dar es Salaam,Uganda,Midwife,4,Male,Medication Error,Expired Product,Maternity,Minor,Temporary Harm,Patient Complaint,Fatigue,Ministry Audit,Process Redesign
+102,Tertiary Hospital,Kampala,Kenya,Nurse,36,Female,Diagnostic Error,Wrong Test Ordered,Maternity,Minor,No Harm,Patient Complaint,Training Gap,Ministry Audit,Staff Training
+103,Tertiary Hospital,Mbale,Kenya,Lab Scientist,34,Female,Diagnostic Error,Delayed Diagnosis,ICU,Moderate,No Harm,Self-report,Training Gap,Internal Hospital Log,SOP Update
+104,General Hospital,Nairobi,Uganda,Lab Scientist,31,Female,Documentation Error,Illegible Order,Surgery,Minor,No Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+105,General Hospital,Nairobi,Uganda,Doctor,50,Female,Transfusion Error,Wrong Blood Type,Surgery,Moderate,Temporary Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+106,Specialist Hospital,Dodoma,Kenya,Nurse,33,Female,Device/Equipment Error,Power Loss,ICU,Minor,No Harm,Patient Complaint,Staff Shortage,Ministry Audit,Digital Record Adoption
+107,Tertiary Hospital,Kampala,Uganda,Doctor,31,Male,Infection Control Error,Catheter-Related Infection,Maternity,Severe,Permanent Harm,Audit,System Error,Internal Hospital Log,SOP Update
+108,Specialist Hospital,Mbale,Tanzania,Pharmacist,49,Male,Medication Error,Wrong Drug,Outpatient,Moderate,No Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,Root Cause Analysis
+109,Teaching Hospital,Mbarara,Kenya,Nurse,25,Female,Medication Error,Omitted Dose,Pharmacy,Moderate,No Harm,Self-report,Miscommunication,Ministry Audit,Root Cause Analysis
+110,Tertiary Hospital,Arusha,Kenya,Doctor,0,Female,Diagnostic Error,Result Misinterpretation,Internal Medicine,Minor,Permanent Harm,Electronic System Alert,Fatigue,Patient Report,Digital Record Adoption
+111,Specialist Hospital,Mbarara,Tanzania,Doctor,69,Male,Device/Equipment Error,Equipment Failure,Internal Medicine,Minor,Temporary Harm,Electronic System Alert,Equipment Failure,Patient Report,Process Redesign
+112,Tertiary Hospital,Arusha,Uganda,Midwife,0,Female,Medication Error,Drug Interaction,Emergency,Minor,Permanent Harm,Patient Complaint,System Error,Ministry Audit,Staff Training
+113,Teaching Hospital,Nairobi,Uganda,Lab Scientist,26,Female,Documentation Error,Illegible Order,Maternity,Minor,Death,Patient Complaint,Equipment Failure,Internal Hospital Log,Staff Training
+114,Specialist Hospital,Arusha,Uganda,Pharmacist,53,Female,Medication Error,Expired Product,Maternity,Moderate,No Harm,Patient Complaint,Training Gap,Patient Report,Staff Training
+115,Specialist Hospital,Kampala,Tanzania,Lab Scientist,14,Male,Medication Error,Wrong Route,Orthopedics,Minor,No Harm,Self-report,Training Gap,Patient Report,SOP Update
+116,Tertiary Hospital,Dar es Salaam,Kenya,Nurse,46,Male,Diagnostic Error,Wrong Test Ordered,Pediatrics,Minor,Temporary Harm,Patient Complaint,Staff Shortage,Patient Report,Equipment Maintenance
+117,Tertiary Hospital,Kisii,Uganda,Doctor,39,Male,Medication Error,Wrong Route,Internal Medicine,Moderate,Death,Self-report,System Error,Patient Report,SOP Update
+118,General Hospital,Kisii,Uganda,Nurse,23,Male,Medication Error,Drug Interaction,Maternity,Minor,No Harm,Self-report,Fatigue,Patient Report,SOP Update
+119,General Hospital,Arusha,Uganda,Pharmacist,32,Male,Medication Error,Expired Product,Pharmacy,Minor,No Harm,Self-report,System Error,Ministry Audit,Staff Training
+120,Specialist Hospital,Kisii,Tanzania,Pharmacist,0,Male,Transfusion Error,Over-transfusion,Pediatrics,Moderate,Temporary Harm,Electronic System Alert,System Error,Ministry Audit,Root Cause Analysis
+121,Specialist Hospital,Nairobi,Tanzania,Midwife,37,Male,Diagnostic Error,Missed Diagnosis,Maternity,Minor,Temporary Harm,Self-report,Training Gap,Patient Report,Equipment Maintenance
+122,Specialist Hospital,Kampala,Uganda,Pharmacist,38,Male,Surgical Mistake,Wrong Procedure,Pediatrics,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+123,Specialist Hospital,Nairobi,Tanzania,Midwife,21,Male,Medication Error,Drug Interaction,Surgery,Moderate,Temporary Harm,Patient Complaint,Equipment Failure,Patient Report,Process Redesign
+124,Teaching Hospital,Mbale,Uganda,Pharmacist,12,Female,Medication Error,Wrong Dose,Internal Medicine,Severe,No Harm,Audit,Staff Shortage,Ministry Audit,Equipment Maintenance
+125,General Hospital,Mbale,Tanzania,Lab Scientist,25,Male,Infection Control Error,Hand Hygiene Failure,Internal Medicine,Minor,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Equipment Maintenance
+126,Teaching Hospital,Mbarara,Kenya,Doctor,32,Female,Surgical Mistake,Wrong Procedure,Emergency,Minor,Permanent Harm,Audit,Miscommunication,Internal Hospital Log,Digital Record Adoption
+127,Specialist Hospital,Dodoma,Kenya,Pharmacist,15,Male,Medication Error,Wrong Drug,ICU,Sentinel,Death,Self-report,Fatigue,Patient Report,Digital Record Adoption
+128,Teaching Hospital,Nairobi,Tanzania,Lab Scientist,19,Male,Medication Error,Drug Interaction,Internal Medicine,Minor,Temporary Harm,Self-report,Fatigue,Ministry Audit,Equipment Maintenance
+129,Teaching Hospital,Mbale,Tanzania,Nurse,37,Male,Infection Control Error,Hand Hygiene Failure,Outpatient,Moderate,No Harm,Electronic System Alert,Training Gap,Patient Report,SOP Update
+130,General Hospital,Mbarara,Tanzania,Pharmacist,39,Female,Diagnostic Error,Missed Diagnosis,Pharmacy,Minor,No Harm,Audit,Training Gap,Internal Hospital Log,Equipment Maintenance
+131,General Hospital,Mbarara,Tanzania,Pharmacist,47,Male,Medication Error,Wrong Drug,Emergency,Severe,No Harm,Self-report,Staff Shortage,Patient Report,Staff Training
+132,General Hospital,Kampala,Kenya,Nurse,40,Male,Diagnostic Error,Delayed Diagnosis,Surgery,Moderate,Permanent Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Process Redesign
+133,Tertiary Hospital,Kisii,Uganda,Pharmacist,61,Male,Transfusion Error,Over-transfusion,Pediatrics,Severe,No Harm,Audit,System Error,Internal Hospital Log,SOP Update
+134,Specialist Hospital,Mbale,Tanzania,Midwife,47,Male,Surgical Mistake,Anesthesia Complication,Orthopedics,Moderate,No Harm,Self-report,System Error,Internal Hospital Log,Root Cause Analysis
+135,General Hospital,Kisumu,Uganda,Nurse,43,Male,Medication Error,Wrong Drug,Emergency,Severe,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,SOP Update
+136,General Hospital,Nairobi,Tanzania,Lab Scientist,38,Male,Infection Control Error,Aseptic Technique Break,Pharmacy,Moderate,No Harm,Self-report,Staff Shortage,Patient Report,Process Redesign
+137,Specialist Hospital,Mbale,Kenya,Midwife,78,Male,Documentation Error,Misfiled Result,Internal Medicine,Minor,No Harm,Audit,Fatigue,Internal Hospital Log,SOP Update
+138,Tertiary Hospital,Arusha,Kenya,Nurse,29,Female,Surgical Mistake,Anesthesia Complication,Pediatrics,Moderate,No Harm,Electronic System Alert,Staff Shortage,Patient Report,Staff Training
+139,Teaching Hospital,Nairobi,Kenya,Doctor,33,Female,Diagnostic Error,Wrong Test Ordered,Pediatrics,Minor,No Harm,Audit,Fatigue,Internal Hospital Log,Equipment Maintenance
+140,Tertiary Hospital,Nairobi,Kenya,Doctor,38,Female,Medication Error,Wrong Route,Orthopedics,Minor,Temporary Harm,Self-report,Training Gap,Ministry Audit,Process Redesign
+141,Specialist Hospital,Dar es Salaam,Kenya,Pharmacist,10,Male,Surgical Mistake,Wrong Procedure,Maternity,Moderate,No Harm,Patient Complaint,Miscommunication,Patient Report,Equipment Maintenance
+142,General Hospital,Dar es Salaam,Uganda,Lab Scientist,9,Male,Surgical Mistake,Anesthesia Complication,Pediatrics,Minor,No Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Equipment Maintenance
+143,Teaching Hospital,Arusha,Tanzania,Nurse,15,Male,Surgical Mistake,Post-op Bleed,ICU,Moderate,Temporary Harm,Self-report,System Error,Patient Report,Digital Record Adoption
+144,Tertiary Hospital,Dar es Salaam,Uganda,Lab Scientist,37,Male,Surgical Mistake,Post-op Bleed,Orthopedics,Minor,Temporary Harm,Self-report,Equipment Failure,Internal Hospital Log,Process Redesign
+145,Specialist Hospital,Dodoma,Kenya,Lab Scientist,49,Female,Medication Error,Wrong Dose,Surgery,Moderate,Temporary Harm,Self-report,Equipment Failure,Ministry Audit,Process Redesign
+146,General Hospital,Dar es Salaam,Kenya,Doctor,9,Female,Surgical Mistake,Anesthesia Complication,ICU,Moderate,Temporary Harm,Electronic System Alert,System Error,Ministry Audit,Process Redesign
+147,Tertiary Hospital,Mbale,Uganda,Nurse,5,Male,Medication Error,Drug Interaction,Orthopedics,Severe,No Harm,Electronic System Alert,Training Gap,Ministry Audit,SOP Update
+148,General Hospital,Kisii,Kenya,Nurse,61,Female,Diagnostic Error,Delayed Diagnosis,Pharmacy,Minor,Death,Audit,System Error,Ministry Audit,Staff Training
+149,Teaching Hospital,Kampala,Uganda,Pharmacist,50,Male,Surgical Mistake,Post-op Bleed,Pediatrics,Moderate,Temporary Harm,Self-report,Fatigue,Ministry Audit,Root Cause Analysis
+150,Teaching Hospital,Dar es Salaam,Tanzania,Doctor,52,Female,Diagnostic Error,Wrong Test Ordered,ICU,Moderate,No Harm,Self-report,Fatigue,Internal Hospital Log,Process Redesign
+151,General Hospital,Kampala,Uganda,Lab Scientist,22,Male,Medication Error,Omitted Dose,Maternity,Severe,No Harm,Self-report,Miscommunication,Ministry Audit,Staff Training
+152,Specialist Hospital,Mbarara,Uganda,Midwife,32,Female,Surgical Mistake,Post-op Bleed,Maternity,Minor,No Harm,Patient Complaint,Miscommunication,Ministry Audit,Staff Training
+153,Specialist Hospital,Kampala,Uganda,Midwife,31,Female,Surgical Mistake,Post-op Bleed,Orthopedics,Severe,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Equipment Maintenance
+154,Tertiary Hospital,Mbale,Kenya,Pharmacist,28,Male,Documentation Error,Misfiled Result,Pediatrics,Minor,No Harm,Self-report,Fatigue,Internal Hospital Log,Process Redesign
+155,Teaching Hospital,Arusha,Uganda,Pharmacist,38,Male,Medication Error,Wrong Drug,Pediatrics,Minor,No Harm,Self-report,Training Gap,Ministry Audit,Digital Record Adoption
+156,General Hospital,Dar es Salaam,Tanzania,Pharmacist,10,Male,Surgical Mistake,Post-op Bleed,Orthopedics,Severe,Temporary Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Process Redesign
+157,General Hospital,Dar es Salaam,Tanzania,Doctor,14,Female,Surgical Mistake,Post-op Bleed,Pediatrics,Minor,Temporary Harm,Self-report,Training Gap,Patient Report,SOP Update
+158,General Hospital,Mbale,Tanzania,Lab Scientist,51,Female,Device/Equipment Error,Alarm Disabled,Orthopedics,Minor,Temporary Harm,Audit,Miscommunication,Internal Hospital Log,SOP Update
+159,Specialist Hospital,Kampala,Kenya,Pharmacist,30,Male,Diagnostic Error,Result Misinterpretation,Pediatrics,Moderate,Temporary Harm,Electronic System Alert,Staff Shortage,Patient Report,Digital Record Adoption
+160,Tertiary Hospital,Arusha,Kenya,Lab Scientist,37,Male,Device/Equipment Error,Calibration Error,Outpatient,Minor,Permanent Harm,Self-report,Fatigue,Patient Report,SOP Update
+161,Teaching Hospital,Kisii,Uganda,Pharmacist,27,Female,Medication Error,Drug Interaction,Orthopedics,Severe,Temporary Harm,Audit,Equipment Failure,Patient Report,Digital Record Adoption
+162,Specialist Hospital,Kisii,Kenya,Midwife,17,Male,Device/Equipment Error,Calibration Error,Pediatrics,Minor,No Harm,Patient Complaint,System Error,Internal Hospital Log,Staff Training
+163,Specialist Hospital,Kisii,Kenya,Nurse,17,Male,Documentation Error,Misfiled Result,Emergency,Moderate,No Harm,Electronic System Alert,Training Gap,Internal Hospital Log,Process Redesign
+164,Teaching Hospital,Kampala,Uganda,Doctor,0,Female,Infection Control Error,Catheter-Related Infection,Pediatrics,Moderate,Temporary Harm,Self-report,Fatigue,Ministry Audit,Equipment Maintenance
+165,Tertiary Hospital,Kisii,Kenya,Pharmacist,49,Male,Medication Error,Drug Interaction,Emergency,Severe,No Harm,Self-report,Staff Shortage,Patient Report,Root Cause Analysis
+166,Tertiary Hospital,Kisii,Tanzania,Lab Scientist,53,Female,Medication Error,Drug Interaction,ICU,Minor,Permanent Harm,Electronic System Alert,Miscommunication,Internal Hospital Log,SOP Update
+167,Specialist Hospital,Dodoma,Tanzania,Midwife,27,Female,Medication Error,Wrong Route,Orthopedics,Minor,No Harm,Electronic System Alert,Staff Shortage,Ministry Audit,SOP Update
+168,General Hospital,Dar es Salaam,Uganda,Lab Scientist,11,Male,Medication Error,Wrong Drug,Internal Medicine,Minor,Temporary Harm,Self-report,Miscommunication,Patient Report,Staff Training
+169,Specialist Hospital,Arusha,Tanzania,Nurse,75,Male,Documentation Error,Incomplete Record,Internal Medicine,Minor,No Harm,Audit,Staff Shortage,Ministry Audit,Digital Record Adoption
+170,General Hospital,Mbale,Uganda,Lab Scientist,37,Male,Medication Error,Wrong Route,Surgery,Severe,Permanent Harm,Self-report,Training Gap,Internal Hospital Log,Staff Training
+171,Teaching Hospital,Kampala,Uganda,Doctor,53,Female,Device/Equipment Error,Equipment Failure,Surgery,Minor,Temporary Harm,Self-report,Miscommunication,Patient Report,Process Redesign
+172,Specialist Hospital,Nairobi,Kenya,Midwife,19,Male,Medication Error,Omitted Dose,Pediatrics,Minor,Temporary Harm,Electronic System Alert,Fatigue,Ministry Audit,Process Redesign
+173,Teaching Hospital,Kisii,Kenya,Midwife,35,Female,Diagnostic Error,Result Misinterpretation,Emergency,Minor,Temporary Harm,Self-report,Miscommunication,Ministry Audit,Process Redesign
+174,Tertiary Hospital,Arusha,Kenya,Midwife,26,Male,Surgical Mistake,Wrong Procedure,Pharmacy,Severe,Temporary Harm,Audit,Miscommunication,Ministry Audit,Process Redesign
+175,Specialist Hospital,Dar es Salaam,Tanzania,Nurse,68,Female,Medication Error,Expired Product,Pediatrics,Minor,Permanent Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Digital Record Adoption
+176,General Hospital,Dodoma,Kenya,Midwife,23,Male,Surgical Mistake,Wrong Procedure,Pediatrics,Minor,No Harm,Electronic System Alert,Equipment Failure,Ministry Audit,SOP Update
+177,Teaching Hospital,Mbarara,Kenya,Lab Scientist,20,Female,Medication Error,Wrong Dose,Emergency,Minor,Temporary Harm,Patient Complaint,Fatigue,Ministry Audit,Staff Training
+178,Teaching Hospital,Mbarara,Tanzania,Nurse,25,Female,Medication Error,Omitted Dose,Pediatrics,Minor,No Harm,Audit,Staff Shortage,Patient Report,Digital Record Adoption
+179,Specialist Hospital,Kampala,Kenya,Lab Scientist,22,Female,Infection Control Error,Aseptic Technique Break,Pharmacy,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Equipment Maintenance
+180,Specialist Hospital,Kisii,Tanzania,Pharmacist,35,Male,Infection Control Error,Catheter-Related Infection,Pediatrics,Minor,No Harm,Patient Complaint,Equipment Failure,Ministry Audit,SOP Update
+181,Tertiary Hospital,Kisii,Uganda,Doctor,48,Female,Device/Equipment Error,Calibration Error,Emergency,Severe,No Harm,Self-report,System Error,Ministry Audit,Equipment Maintenance
+182,General Hospital,Nairobi,Uganda,Nurse,2,Female,Transfusion Error,Mislabeled Sample,ICU,Moderate,No Harm,Self-report,System Error,Patient Report,SOP Update
+183,Tertiary Hospital,Mbarara,Kenya,Lab Scientist,37,Male,Surgical Mistake,Wrong Procedure,Outpatient,Moderate,Temporary Harm,Self-report,Staff Shortage,Patient Report,Equipment Maintenance
+184,Teaching Hospital,Mbarara,Uganda,Midwife,0,Female,Diagnostic Error,Missed Diagnosis,Orthopedics,Moderate,No Harm,Audit,Training Gap,Internal Hospital Log,Equipment Maintenance
+185,Tertiary Hospital,Kisii,Uganda,Lab Scientist,52,Male,Documentation Error,Incomplete Record,ICU,Minor,No Harm,Electronic System Alert,Fatigue,Internal Hospital Log,Root Cause Analysis
+186,Tertiary Hospital,Arusha,Kenya,Pharmacist,28,Male,Surgical Mistake,Wrong Site,ICU,Severe,Permanent Harm,Audit,Staff Shortage,Internal Hospital Log,Staff Training
+187,Teaching Hospital,Dar es Salaam,Tanzania,Lab Scientist,27,Male,Documentation Error,Misfiled Result,Maternity,Minor,Temporary Harm,Electronic System Alert,Miscommunication,Patient Report,Equipment Maintenance
+188,Teaching Hospital,Nairobi,Kenya,Lab Scientist,37,Male,Medication Error,Wrong Route,Maternity,Severe,Temporary Harm,Audit,System Error,Patient Report,Digital Record Adoption
+189,General Hospital,Mbarara,Tanzania,Nurse,38,Male,Medication Error,Expired Product,ICU,Minor,No Harm,Self-report,Staff Shortage,Ministry Audit,Digital Record Adoption
+190,Teaching Hospital,Mbale,Tanzania,Doctor,40,Male,Surgical Mistake,Wrong Site,Maternity,Minor,Permanent Harm,Audit,Miscommunication,Patient Report,Root Cause Analysis
+191,Specialist Hospital,Mbale,Uganda,Midwife,20,Female,Device/Equipment Error,Calibration Error,Outpatient,Moderate,No Harm,Self-report,Miscommunication,Patient Report,Root Cause Analysis
+192,General Hospital,Kisumu,Kenya,Lab Scientist,36,Male,Transfusion Error,Mislabeled Sample,Orthopedics,Moderate,No Harm,Self-report,System Error,Ministry Audit,Staff Training
+193,Tertiary Hospital,Mbarara,Uganda,Doctor,56,Male,Surgical Mistake,Wrong Procedure,Pharmacy,Minor,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+194,Tertiary Hospital,Kisumu,Tanzania,Nurse,56,Female,Infection Control Error,Aseptic Technique Break,Internal Medicine,Moderate,Temporary Harm,Self-report,Staff Shortage,Ministry Audit,Digital Record Adoption
+195,Tertiary Hospital,Mbarara,Uganda,Lab Scientist,33,Female,Documentation Error,Illegible Order,Maternity,Sentinel,No Harm,Audit,System Error,Patient Report,Root Cause Analysis
+196,Tertiary Hospital,Dodoma,Kenya,Pharmacist,38,Male,Medication Error,Expired Product,Internal Medicine,Severe,Temporary Harm,Electronic System Alert,Equipment Failure,Ministry Audit,Staff Training
+197,Specialist Hospital,Kisii,Kenya,Midwife,41,Male,Documentation Error,Misfiled Result,ICU,Minor,Temporary Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Staff Training
+198,Tertiary Hospital,Mbale,Kenya,Midwife,28,Female,Transfusion Error,Transfusion Reaction,Internal Medicine,Minor,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+199,General Hospital,Dar es Salaam,Tanzania,Lab Scientist,22,Male,Surgical Mistake,Wrong Site,Pediatrics,Minor,Permanent Harm,Self-report,Training Gap,Patient Report,Equipment Maintenance
+200,General Hospital,Arusha,Tanzania,Nurse,30,Male,Device/Equipment Error,Alarm Disabled,Emergency,Minor,Permanent Harm,Electronic System Alert,System Error,Internal Hospital Log,Equipment Maintenance
+201,Specialist Hospital,Nairobi,Uganda,Lab Scientist,23,Female,Medication Error,Wrong Route,Emergency,Severe,No Harm,Self-report,System Error,Ministry Audit,Digital Record Adoption
+202,Specialist Hospital,Dodoma,Uganda,Nurse,46,Male,Infection Control Error,Improper Sterilization,Surgery,Minor,Temporary Harm,Audit,Fatigue,Patient Report,Process Redesign
+203,Specialist Hospital,Arusha,Uganda,Pharmacist,45,Female,Documentation Error,Wrong Patient Chart,Maternity,Severe,No Harm,Patient Complaint,Miscommunication,Internal Hospital Log,SOP Update
+204,Tertiary Hospital,Mbarara,Kenya,Midwife,5,Male,Surgical Mistake,Wrong Site,ICU,Minor,No Harm,Self-report,Training Gap,Patient Report,SOP Update
+205,Teaching Hospital,Kisumu,Tanzania,Midwife,0,Male,Medication Error,Expired Product,Surgery,Minor,Temporary Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+206,General Hospital,Kisumu,Uganda,Lab Scientist,43,Male,Medication Error,Expired Product,ICU,Minor,No Harm,Self-report,System Error,Ministry Audit,Process Redesign
+207,Specialist Hospital,Nairobi,Kenya,Doctor,49,Female,Surgical Mistake,Wrong Procedure,Maternity,Severe,No Harm,Patient Complaint,Miscommunication,Patient Report,Process Redesign
+208,General Hospital,Kisii,Tanzania,Pharmacist,40,Female,Diagnostic Error,Result Misinterpretation,Outpatient,Moderate,Temporary Harm,Audit,Staff Shortage,Patient Report,Digital Record Adoption
+209,Specialist Hospital,Kisumu,Uganda,Lab Scientist,65,Male,Documentation Error,Misfiled Result,Internal Medicine,Minor,Temporary Harm,Self-report,Miscommunication,Patient Report,Digital Record Adoption
+210,Teaching Hospital,Mbarara,Uganda,Nurse,46,Female,Medication Error,Wrong Dose,Pediatrics,Minor,No Harm,Self-report,Fatigue,Patient Report,SOP Update
+211,General Hospital,Dar es Salaam,Kenya,Pharmacist,18,Male,Medication Error,Expired Product,Orthopedics,Severe,No Harm,Audit,System Error,Internal Hospital Log,Process Redesign
+212,General Hospital,Arusha,Uganda,Midwife,55,Male,Documentation Error,Wrong Patient Chart,Maternity,Moderate,Temporary Harm,Electronic System Alert,System Error,Internal Hospital Log,SOP Update
+213,General Hospital,Dodoma,Kenya,Lab Scientist,35,Male,Diagnostic Error,Result Misinterpretation,Emergency,Minor,No Harm,Self-report,Equipment Failure,Internal Hospital Log,Process Redesign
+214,Teaching Hospital,Mbarara,Tanzania,Midwife,32,Male,Documentation Error,Wrong Patient Chart,Emergency,Minor,No Harm,Electronic System Alert,Equipment Failure,Internal Hospital Log,Root Cause Analysis
+215,Teaching Hospital,Mbale,Uganda,Nurse,8,Female,Transfusion Error,Wrong Blood Type,ICU,Severe,No Harm,Self-report,Equipment Failure,Ministry Audit,Process Redesign
+216,Teaching Hospital,Nairobi,Uganda,Doctor,0,Male,Medication Error,Drug Interaction,Outpatient,Minor,Temporary Harm,Patient Complaint,Training Gap,Internal Hospital Log,Process Redesign
+217,Specialist Hospital,Kisumu,Tanzania,Midwife,45,Female,Transfusion Error,Mislabeled Sample,Surgery,Minor,No Harm,Patient Complaint,Training Gap,Internal Hospital Log,Staff Training
+218,Specialist Hospital,Mbale,Uganda,Doctor,32,Female,Infection Control Error,Catheter-Related Infection,Internal Medicine,Moderate,No Harm,Self-report,Miscommunication,Ministry Audit,Digital Record Adoption
+219,Specialist Hospital,Arusha,Tanzania,Lab Scientist,44,Female,Medication Error,Omitted Dose,Emergency,Moderate,Permanent Harm,Electronic System Alert,Staff Shortage,Patient Report,Equipment Maintenance
+220,General Hospital,Kisumu,Tanzania,Nurse,41,Female,Transfusion Error,Mislabeled Sample,Pediatrics,Severe,Temporary Harm,Self-report,System Error,Patient Report,Staff Training
+221,Specialist Hospital,Kisumu,Uganda,Midwife,36,Male,Infection Control Error,Aseptic Technique Break,Internal Medicine,Minor,Temporary Harm,Self-report,Staff Shortage,Internal Hospital Log,Staff Training
+222,Teaching Hospital,Arusha,Kenya,Midwife,47,Male,Infection Control Error,Aseptic Technique Break,Pediatrics,Minor,No Harm,Patient Complaint,Training Gap,Ministry Audit,Staff Training
+223,Teaching Hospital,Mbarara,Uganda,Midwife,37,Female,Medication Error,Omitted Dose,ICU,Minor,No Harm,Self-report,Fatigue,Patient Report,Equipment Maintenance
+224,Teaching Hospital,Kisumu,Uganda,Lab Scientist,35,Male,Surgical Mistake,Post-op Bleed,Pediatrics,Moderate,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Root Cause Analysis
+225,Specialist Hospital,Mbarara,Tanzania,Midwife,9,Female,Medication Error,Wrong Drug,Surgery,Minor,Temporary Harm,Audit,Staff Shortage,Ministry Audit,Process Redesign
+226,Specialist Hospital,Kampala,Uganda,Midwife,25,Male,Medication Error,Wrong Dose,Maternity,Moderate,No Harm,Self-report,Staff Shortage,Internal Hospital Log,Digital Record Adoption
+227,Teaching Hospital,Dodoma,Tanzania,Lab Scientist,11,Female,Transfusion Error,Mislabeled Sample,Maternity,Minor,Temporary Harm,Electronic System Alert,Training Gap,Ministry Audit,Root Cause Analysis
+228,Teaching Hospital,Dar es Salaam,Uganda,Midwife,37,Female,Medication Error,Wrong Dose,Emergency,Moderate,No Harm,Self-report,Fatigue,Ministry Audit,Staff Training
+229,Teaching Hospital,Mbarara,Uganda,Pharmacist,50,Male,Diagnostic Error,Result Misinterpretation,Emergency,Moderate,Temporary Harm,Self-report,System Error,Internal Hospital Log,Staff Training
+230,Teaching Hospital,Mbale,Kenya,Nurse,3,Male,Medication Error,Wrong Drug,Pharmacy,Minor,Temporary Harm,Self-report,Equipment Failure,Ministry Audit,Staff Training
+231,Specialist Hospital,Mbale,Uganda,Midwife,7,Female,Medication Error,Expired Product,Internal Medicine,Moderate,Permanent Harm,Electronic System Alert,Equipment Failure,Patient Report,Equipment Maintenance
+232,General Hospital,Dodoma,Tanzania,Lab Scientist,36,Male,Surgical Mistake,Post-op Bleed,Outpatient,Severe,Permanent Harm,Self-report,Miscommunication,Internal Hospital Log,Process Redesign
+233,Teaching Hospital,Mbarara,Tanzania,Lab Scientist,23,Female,Surgical Mistake,Wrong Site,Emergency,Minor,No Harm,Audit,Staff Shortage,Patient Report,Digital Record Adoption
+234,General Hospital,Dar es Salaam,Kenya,Pharmacist,5,Male,Surgical Mistake,Wrong Site,Surgery,Minor,Temporary Harm,Self-report,System Error,Ministry Audit,SOP Update
+235,General Hospital,Kisumu,Tanzania,Pharmacist,18,Male,Medication Error,Omitted Dose,Pediatrics,Minor,No Harm,Patient Complaint,Training Gap,Patient Report,Digital Record Adoption
+236,Teaching Hospital,Kampala,Kenya,Doctor,14,Female,Medication Error,Drug Interaction,Surgery,Moderate,Temporary Harm,Self-report,Miscommunication,Ministry Audit,Staff Training
+237,Specialist Hospital,Mbarara,Uganda,Nurse,34,Male,Documentation Error,Incomplete Record,Pediatrics,Moderate,Temporary Harm,Self-report,Training Gap,Patient Report,Digital Record Adoption
+238,Specialist Hospital,Kisii,Kenya,Pharmacist,43,Female,Medication Error,Wrong Route,Emergency,Minor,No Harm,Patient Complaint,Equipment Failure,Ministry Audit,SOP Update
+239,Specialist Hospital,Kampala,Kenya,Lab Scientist,49,Female,Transfusion Error,Transfusion Reaction,Maternity,Moderate,No Harm,Self-report,System Error,Ministry Audit,Root Cause Analysis
+240,Teaching Hospital,Arusha,Uganda,Midwife,48,Male,Device/Equipment Error,Alarm Disabled,Surgery,Minor,No Harm,Self-report,System Error,Patient Report,Root Cause Analysis
+241,General Hospital,Mbale,Kenya,Doctor,55,Male,Documentation Error,Wrong Patient Chart,Maternity,Minor,No Harm,Self-report,Equipment Failure,Ministry Audit,Staff Training
+242,Tertiary Hospital,Kisumu,Kenya,Midwife,29,Female,Surgical Mistake,Wrong Procedure,Maternity,Minor,No Harm,Self-report,Training Gap,Patient Report,Digital Record Adoption
+243,Teaching Hospital,Nairobi,Tanzania,Lab Scientist,58,Female,Diagnostic Error,Result Misinterpretation,Pediatrics,Moderate,No Harm,Self-report,Equipment Failure,Ministry Audit,Digital Record Adoption
+244,Tertiary Hospital,Kisii,Kenya,Lab Scientist,29,Female,Surgical Mistake,Wrong Site,Internal Medicine,Moderate,No Harm,Electronic System Alert,Staff Shortage,Internal Hospital Log,Equipment Maintenance
+245,General Hospital,Dodoma,Uganda,Nurse,32,Male,Documentation Error,Incomplete Record,Pediatrics,Moderate,Death,Audit,Fatigue,Patient Report,Staff Training
+246,Specialist Hospital,Mbale,Uganda,Pharmacist,28,Female,Surgical Mistake,Post-op Bleed,Internal Medicine,Minor,No Harm,Self-report,Staff Shortage,Patient Report,Equipment Maintenance
+247,Tertiary Hospital,Kisii,Kenya,Nurse,47,Female,Medication Error,Wrong Drug,ICU,Minor,No Harm,Electronic System Alert,Training Gap,Patient Report,SOP Update
+248,Teaching Hospital,Mbarara,Uganda,Pharmacist,54,Female,Surgical Mistake,Retained Item,Emergency,Moderate,Temporary Harm,Self-report,Fatigue,Internal Hospital Log,SOP Update
+249,General Hospital,Nairobi,Tanzania,Lab Scientist,35,Female,Surgical Mistake,Retained Item,Emergency,Minor,No Harm,Self-report,Fatigue,Patient Report,SOP Update
+250,Teaching Hospital,Dodoma,Tanzania,Midwife,43,Male,Surgical Mistake,Post-op Bleed,Surgery,Minor,No Harm,Electronic System Alert,Equipment Failure,Ministry Audit,Process Redesign
+251,Tertiary Hospital,Kisii,Uganda,Lab Scientist,34,Female,Medication Error,Omitted Dose,ICU,Moderate,No Harm,Patient Complaint,Equipment Failure,Patient Report,Equipment Maintenance
+252,Specialist Hospital,Kisumu,Kenya,Doctor,43,Female,Device/Equipment Error,Power Loss,Maternity,Severe,Temporary Harm,Electronic System Alert,Fatigue,Patient Report,Digital Record Adoption
+253,Tertiary Hospital,Arusha,Uganda,Doctor,28,Female,Documentation Error,Incomplete Record,ICU,Minor,Permanent Harm,Audit,Staff Shortage,Patient Report,Equipment Maintenance
+254,Teaching Hospital,Arusha,Kenya,Midwife,7,Female,Medication Error,Wrong Drug,Maternity,Moderate,No Harm,Self-report,Miscommunication,Internal Hospital Log,Process Redesign
+255,General Hospital,Nairobi,Kenya,Midwife,8,Male,Diagnostic Error,Result Misinterpretation,Pharmacy,Moderate,No Harm,Self-report,Equipment Failure,Ministry Audit,Root Cause Analysis
+256,Tertiary Hospital,Arusha,Kenya,Lab Scientist,45,Female,Infection Control Error,Aseptic Technique Break,Outpatient,Minor,Temporary Harm,Patient Complaint,System Error,Patient Report,Staff Training
+257,General Hospital,Kampala,Kenya,Nurse,25,Female,Medication Error,Omitted Dose,Pediatrics,Moderate,No Harm,Patient Complaint,Equipment Failure,Internal Hospital Log,Digital Record Adoption
+258,Teaching Hospital,Mbale,Tanzania,Pharmacist,35,Female,Medication Error,Omitted Dose,Surgery,Moderate,No Harm,Self-report,Equipment Failure,Ministry Audit,Root Cause Analysis
+259,Teaching Hospital,Arusha,Uganda,Lab Scientist,42,Female,Diagnostic Error,Delayed Diagnosis,Pharmacy,Moderate,No Harm,Self-report,Miscommunication,Patient Report,Root Cause Analysis
+260,Specialist Hospital,Mbale,Uganda,Pharmacist,46,Male,Medication Error,Wrong Dose,Internal Medicine,Minor,No Harm,Self-report,System Error,Patient Report,Staff Training
+261,Teaching Hospital,Nairobi,Uganda,Lab Scientist,48,Male,Diagnostic Error,Wrong Test Ordered,Outpatient,Minor,Temporary Harm,Audit,Training Gap,Patient Report,Staff Training
+262,Teaching Hospital,Mbarara,Tanzania,Doctor,78,Male,Medication Error,Drug Interaction,Pharmacy,Moderate,Permanent Harm,Electronic System Alert,Equipment Failure,Patient Report,Equipment Maintenance
+263,Teaching Hospital,Mbale,Kenya,Lab Scientist,8,Male,Surgical Mistake,Wrong Site,Outpatient,Moderate,Temporary Harm,Self-report,Staff Shortage,Patient Report,Digital Record Adoption
+264,Teaching Hospital,Kisii,Uganda,Nurse,27,Female,Diagnostic Error,Wrong Test Ordered,Emergency,Severe,No Harm,Self-report,System Error,Patient Report,Equipment Maintenance
+265,General Hospital,Mbale,Uganda,Nurse,38,Female,Diagnostic Error,Missed Diagnosis,Pharmacy,Moderate,Temporary Harm,Self-report,System Error,Ministry Audit,Equipment Maintenance
+266,General Hospital,Kisii,Uganda,Pharmacist,18,Female,Documentation Error,Misfiled Result,Emergency,Minor,No Harm,Electronic System Alert,Miscommunication,Ministry Audit,SOP Update
+267,General Hospital,Dar es Salaam,Uganda,Lab Scientist,34,Female,Documentation Error,Illegible Order,Pharmacy,Minor,Temporary Harm,Self-report,Miscommunication,Internal Hospital Log,Equipment Maintenance
+268,Tertiary Hospital,Mbale,Tanzania,Nurse,57,Male,Diagnostic Error,Delayed Diagnosis,Orthopedics,Moderate,Permanent Harm,Audit,Miscommunication,Patient Report,Root Cause Analysis
+269,Teaching Hospital,Dar es Salaam,Kenya,Nurse,19,Female,Diagnostic Error,Missed Diagnosis,Outpatient,Minor,No Harm,Audit,Training Gap,Ministry Audit,Root Cause Analysis
+270,Specialist Hospital,Dodoma,Uganda,Lab Scientist,30,Male,Medication Error,Omitted Dose,Internal Medicine,Minor,Death,Self-report,System Error,Patient Report,Staff Training
+271,Specialist Hospital,Dodoma,Tanzania,Midwife,53,Male,Surgical Mistake,Post-op Bleed,Internal Medicine,Moderate,Temporary Harm,Audit,System Error,Internal Hospital Log,Root Cause Analysis
+272,Specialist Hospital,Dodoma,Kenya,Nurse,33,Female,Medication Error,Expired Product,Internal Medicine,Moderate,Temporary Harm,Patient Complaint,Fatigue,Internal Hospital Log,Digital Record Adoption
+273,General Hospital,Dodoma,Tanzania,Doctor,27,Male,Infection Control Error,Improper Sterilization,Pharmacy,Moderate,No Harm,Self-report,Staff Shortage,Patient Report,Root Cause Analysis
+274,Specialist Hospital,Dodoma,Kenya,Lab Scientist,54,Male,Medication Error,Wrong Route,Pediatrics,Severe,No Harm,Audit,Training Gap,Patient Report,SOP Update
+275,Tertiary Hospital,Kisumu,Kenya,Midwife,19,Female,Device/Equipment Error,Power Loss,Internal Medicine,Minor,No Harm,Self-report,System Error,Ministry Audit,Digital Record Adoption
+276,Teaching Hospital,Mbarara,Kenya,Doctor,31,Male,Device/Equipment Error,Equipment Failure,Orthopedics,Severe,No Harm,Electronic System Alert,Training Gap,Patient Report,Equipment Maintenance
+277,Specialist Hospital,Arusha,Kenya,Nurse,27,Male,Surgical Mistake,Retained Item,Outpatient,Sentinel,Temporary Harm,Electronic System Alert,Equipment Failure,Ministry Audit,Staff Training
